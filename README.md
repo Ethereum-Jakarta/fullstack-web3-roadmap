@@ -208,7 +208,7 @@ Blockchain theory ini optional, dan boleh kalian cicil selama phase 0 sampe phas
 
 Sering sering membaca transaction hash juga habbit yang bagus, karna ketika menjadi web3 dev kalian akan sering untuk manage Tx hash. kalian bisa build habbit nya dari sekarang pas awal" membuat pondasi pemrograman.
 
-### Foundation Goals
+### Phase 0 Foundation Goals
 
 Ini adalah target" yang harus kalian capain di phase foundation, parameter inilah yang membuktikan kalo kalian pantas untuk melanjutkan phase selanjutnya. 
 
@@ -226,7 +226,7 @@ Backend Aplikasi Terdesentralisasi sangat berbeda dari backend aplikasi “stand
 
 Namun, sebagian besar prinsip teknis tetap sama, dan tidak disarankan untuk langsung terjun ke pengembangan blockchain dan web3.0 tanpa landasan yang kuat dari prinsip utama pengembangan web standar.
 
-## Enhance Logic
+### Enhance Logic
 - Clean Code Introduction
 - Time Complexity
 - Next level algorithm (Searching Algo, Sorting Algo, Djakstra, Hashing)
@@ -242,7 +242,7 @@ Namun, sebagian besar prinsip teknis tetap sama, dan tidak disarankan untuk lang
 Pada pengembangan backend , logika pemrograman adalah segalanya. karena modul modul API ini berkatian dengan business flow dari project yang kita buat. Materi" Enhance logic ini jarang dibahas di bootcamp manapun, sering sekali course course online diluar melewati step ini. padahal fundamental seperti ini sangat berpengaruh dalam pembuatan server backend.
 
 
-## Backend API 
+### Backend API 
 - RESTful APIs
 - Express.js/Node.js
 - Database management (MongoDB/PostgreSQL)
@@ -255,4 +255,48 @@ Di Stage ini kalian akan belajar Memasak berbagai hidangan yang akan kalian saji
 - [RPN Phase 1](https://github.com/RPN-Phase-1)
 - [Rest API in nodejs](https://www.geeksforgeeks.org/what-is-rest-api-in-node-js/)
 - [Node js beginner - fireship ](https://www.youtube.com/watch?v=ENrzD9HAZK4&t=568s)
-- [Nodejs & Express Crash Course - FreeCodeCamp](https://www.youtube.com/watch?v=Oe421EPjeBE&t=1s)
+- [Node js & Express Crash Course - FreeCodeCamp](https://www.youtube.com/watch?v=Oe421EPjeBE&t=1s)
+
+### Cloud Deployment
+- Understanding Cloud Services
+- Types of cloud services (IaaS, PaaS, SaaS)
+- Deploy Backend Services
+- CI/CD
+
+📚Resources (Cloud Deployment) : 
+- [What is Cloud Computing -Aws](https://aws.amazon.com/what-is-cloud-computing/?nc2=h_ql_le_int_cc)
+- [Cloud Computing Full Course](https://www.youtube.com/watch?v=yRIU2nzIQl8)
+- [Deploy Backend Node To Vercel - geeksForGeeks](https://www.geeksforgeeks.org/how-to-deploy-node-backend-on-vercel/)
+- [Node js & Express Crash Course - FreeCodeCamp](https://www.youtube.com/watch?v=Oe421EPjeBE&t=1s)
+
+Cloud services stage terakhir diphase backend development, disini kalian akan belajar cara deploy API service kalian sampai bisa di konsum secara public/private dari forntend.
+Stage ini mungkin sangat membingunkan buat kalian, karena ada banyak banget service" cloud yang bisa dipakai di dunia IT. Benefitnya juga ada banyak berbagai macam jadi kalian harus cari mana yang cocok dan sesuai kebutuhan project kalian.
+
+
+ini tips dari gua untuk learn cloud deployment dan menghindari yang namanya "tutorial hell"
+### Key Tips for Success on learning cloud deployment:
+
+Mulailah dari yang Kecil:
+- Mulailah dengan deploy situs web statis
+- Tambahkan kompleksitas secara bertahap
+- Berlatihlah secara teratur dengan proyek-proyek kecil
+
+Jalur Fokus:
+- Kuasai satu cloud service terlebih dahulu (disarankan AWS)
+- Pelajari fitur fitur cloud secara menyeluruh
+- Bangun practical project
+
+Jebakan Umum yang Harus Dihindari:
+- Jangan mencoba mempelajari semuanya sekaligus
+- Fokus pada pemahaman daripada menghafal
+- Selalu pertimbangkan dasar-dasar security
+
+## Phase 1 Backend Development Goals
+
+Ketika kalian sudah menyelesaikan phase 1, harusnya kalian sudah bisa bekerja sebagai backend developer di web2.
+inilah milestone yang akan tercapai jika kalian finish phase 1 secara menyeluruh :
+
+- Mastering Algorithm (Bisa Selesaikan LeetCode Medium problems)
+- Design Database (know business logic pattern, ERD, pre development)
+- Backend Development (REST API)
+- Deploy Backend Services
