@@ -436,5 +436,64 @@ Smart Contract Patterns:
 - [Fullstack NFT](https://www.web3.university/tracks/build-your-first-nft/building-a-full-stack-nft-dapp)
 - [Dapp Development Playlist](https://www.youtube.com/@daulathussain/playlists)
 
+Ini akan jadi learning curve yang panjang banget, sekali lagi gua tekenin explore dan dalemin 1 konsep terlebih dahulu baru belajar konsep yang lain. jangan belajar semua konsep berbarengan.
+Kalian wajib mulai menyicil untuk membuat portofolio web3, ini list ide porto yang kalian bisa buat 
+
+
+Basic DApp
+- Simple smart contract
+- Web3 wallet integration
+- Basic transactions
+
+NFT Marketplace
+- ERC721/1155 implementation
+- Marketplace functionality
+- IPFS integration
+
+DeFi Application
+- Token swapping
+- Liquidity provision
+- Yield farming mechanics
+
+DAO Platform
+- Governance tokens
+- Voting mechanism
+- Treasury management
+
+*SOON kita akan buat workshop dan ngoding bareng untuk membuat semua list porto ini.
+
+
+### Continuous Learning
+
+Di stage ini kalian sudah bisa bekerja sebagai fullstack web3 Developer, jenjang selanjutnya adalah belajar terus menerus tanpa henti. karna kalian masih ketinggalan dengan topic" baru di web3.
+kalian harus mengejar teknology yang hype sekarang dan advance topic baru di web3.
+
+Layer 2 Solutions
+- Rollups (Optimistic/ZK)
+- State channels
+- Sidechains
+- Plasma
+
+DeFi Concepts
+- AMMs
+- Lending protocols
+- Yield farming
+- Flash loans
+- Governance mechanisms
+
+Infrastructure
+- Node management
+- RPC providers
+- ENS integration
+- IPFS/Filecoin
+- Multi-chain development
+- L1sload Precompile
+
+dan jangan lupa start networking dan show skill kalian ke web3 community :
+- Follow Web3 blogs & newsletters
+- Join Discord communities
+- Participate in hackathons
+- Contribute to open source
+- Stay updated with EIPs
 
 
