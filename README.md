@@ -291,7 +291,7 @@ Jebakan Umum yang Harus Dihindari:
 - Fokus pada pemahaman daripada menghafal
 - Selalu pertimbangkan dasar-dasar security
 
-## Phase 1 Backend Development Goals
+### Phase 1 Backend Development Goals
 
 Ketika kalian sudah menyelesaikan phase 1, harusnya kalian sudah bisa bekerja sebagai backend developer di web2.
 inilah milestone yang akan tercapai jika kalian finish phase 1 secara menyeluruh :
