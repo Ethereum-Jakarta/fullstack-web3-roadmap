@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/f1c70e85-623f-450e-bd8e-df2830928b79)
 
-Hao gua Faisal dari ethjkt, selamat datang di fullstack web3 dev roadmap ETH JKT. repo ini gua buat untuk resources pemula yang mau zero to hero untuk menjadi web3 developer. setelah gua speak di eth jkt intro, ini adalah lanjutan journey kalian untuk belajar semua materi blockchain development. ini akan menjadi journey yang sangat panjang, karna repo ini fokus mulai dari fundamental yang kuat dan dibuat se detail mungkin agar kalian menjadi web3 developer yang baik.
+Halo gua Faisal dari ethjkt, selamat datang di fullstack web3 dev roadmap ETH JKT. repo ini gua buat untuk resources pemula yang mau zero to hero untuk menjadi web3 developer. setelah gua speak di eth jkt intro, ini adalah lanjutan journey kalian untuk belajar semua materi blockchain development. ini akan menjadi journey yang sangat panjang, karna repo ini fokus mulai dari fundamental yang kuat dan dibuat se detail mungkin agar kalian menjadi web3 developer yang baik.
 Bisa dibilang ini kuliah online dengan eth jkt haha.
 
 
@@ -201,6 +201,8 @@ White board crypto ini berguna banget buat pemula, video yang dia buat sangat in
 
 - [Crypto Hash - GeeksForGeeks](https://www.geeksforgeeks.org/cryptography-hash-functions/)
 
+- [Blockchain Knowledge - BlockDevID](https://blockdev.id/knowledge) -> Newbie friendly dan berbahasa indonesia, salah satu komunitas web3 dev terbesar di indo.
+
 
 Blockchain theory ini optional, dan boleh kalian cicil selama phase 0 sampe phase 2. Ini kalian bisa pelajari pelan pelan dan coba praktek kecil kecilan. praktek paling simple adalah mencoba untuk mebuat wallet di web3, swap token di berbagai DApp, interact ke beberapa smartcontract. Jika kalian trader yang sudah paham flow exchange dan DEX harusnya teori kalian dalam blockchain sudah lumayan kuat. Tinggal pelajari gimana mekanisme network blockchain bekerja saja dan Cryptographic hash nya. 
 
@@ -215,3 +217,42 @@ Ini adalah target" yang harus kalian capain di phase foundation, parameter inila
 - Web2 apps using DOM 
 - Pehamahan Blockchain 
 
+
+## Phase 1 : Backend Development (Web2)
+
+![image](https://github.com/user-attachments/assets/d1c2043a-def2-4040-8c67-f25dd53c9d99)
+
+Backend Aplikasi Terdesentralisasi sangat berbeda dari backend aplikasi “standar”, dimulai dari fakta bahwa teknologi Blockchain digunakan sebagai sumber utama penyimpanan data terdesentralisasi, sedangkan backend standar biasanya menggunakan Basis Data atau Penyimpanan Objek.
+
+Namun, sebagian besar prinsip teknis tetap sama, dan tidak disarankan untuk langsung terjun ke pengembangan blockchain dan web3.0 tanpa landasan yang kuat dari prinsip utama pengembangan web standar.
+
+## Enhance Logic
+- Clean Code Introduction
+- Time Complexity
+- Next level algorithm (Searching Algo, Sorting Algo, Djakstra, Hashing)
+- OOP Konsep
+- Linux Command Line
+
+📚Resources (Enhance Logic) : 
+- [RPN Phase 1](https://github.com/RPN-Phase-1)
+- [Linux Command Cheatsheet](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
+- [Top Algorithms ](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
+- [Clean Code Javascript](https://lokesh-prajapati.medium.com/26-clean-code-javascript-tips-for-efficient-programming-02ccdfebebc2)
+
+Pada pengembangan backend , logika pemrograman adalah segalanya. karena modul modul API ini berkatian dengan business flow dari project yang kita buat. Materi" Enhance logic ini jarang dibahas di bootcamp manapun, sering sekali course course online diluar melewati step ini. padahal fundamental seperti ini sangat berpengaruh dalam pembuatan server backend.
+
+
+## Backend API 
+- RESTful APIs
+- Express.js/Node.js
+- Database management (MongoDB/PostgreSQL)
+- API authentication & security
+- Backend testing
+
+Di Stage ini kalian akan belajar Memasak berbagai hidangan yang akan kalian sajikan kepada para tamu nantinya. layaknya seperti seorang koki yang menyiapkan masakan dan meja makan untuk menghidangkan makanan, kalian para back end akan menyiapkan bermacam function dan data untuk diberikan kepada front end dan front end akan mem-visualisasikan data tersebut kedalam web. di sinilah kalian akan mempelajari bumbu-bumbu masakan tersebut untuk menciptakan hindangan yang lezat sebagai seorang backend seperti API, database, advance algorithm, Authentication & Authorization, dan lainnya.
+
+📚Resources (Enhance Logic) : 
+- [RPN Phase 1](https://github.com/RPN-Phase-1)
+- [Rest API in nodejs](https://www.geeksforgeeks.org/what-is-rest-api-in-node-js/)
+- [Node js beginner - fireship ](https://www.youtube.com/watch?v=ENrzD9HAZK4&t=568s)
+- [Nodejs & Express Crash Course - FreeCodeCamp](https://www.youtube.com/watch?v=Oe421EPjeBE&t=1s)
