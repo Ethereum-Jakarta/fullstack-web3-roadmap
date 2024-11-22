@@ -305,3 +305,136 @@ inilah milestone yang akan tercapai jika kalian finish phase 1 secara menyeluruh
 ![image](https://github.com/user-attachments/assets/4e62769d-749f-45e7-9d65-ee1fcec201d0)
 
 Di phase 2 ini kalian akan banyak belajar "sihir", sama seperti kalian menggunakan item-item dari pocket Doraemon. Semakin kalian banyak belajar item tersebut, semakin seru. Karena di front end ini dunia visual, belajar nya bakal lebih semangat karena hasil codingan kalian terlihat di layar. Item-item Doraemon ini sama saja seperti library-library front end yang kita pelajari, karena ada banyak sekali kombinasi framework + library di development front end.
+
+### Front End Development
+- React.js
+- Props & State
+- UseEffect
+- State management (Redux/Context API)
+- CSS Library/Framework (TailwindCSS, MaterialUI, etc)
+- Frontend testing (Jest, React Testing Library)
+- Backend API Integration (Fetch, Axios, dll)
+
+📚Resources (Front End Development) : 
+- [RPN Phase 2 : Reactjs](https://github.com/RPN-Phase-2/Week2-Reactjs)
+- [ReactJs Crash Course - TraversyMedia](https://www.youtube.com/watch?v=LDB4uaJ87e0)
+- [Belajar TailwindCSS - WPU](https://www.youtube.com/watch?v=z3slaXqmkT0&list=PLFIM0718LjIUHFRMzPJ0wGjx9_NlC5d1h)
+- [Redux - FireShip](https://www.youtube.com/watch?v=_shA5Xwe8_4)
+
+Di stage ini sudah saatnya kalian gabungkan Service Backend API dengan Front end untuk membuat 1 aplikasi fullstack utuh, kalian bisa merasakan flow engineering pada web2 dan cara kerja Web Apps sepenuhnya.
+
+### Front End Advance
+- Vite Bundler
+- Advance React Hooks (useMemo, useCallback, useContext, useForm)
+- NextJS Framework
+- Pre-rendering and Data Fetching (SSG, SSR)
+- Dynamic Routes
+- Tanstack
+- Realtime Data (Websockets)
+
+📚Resources (Front End Advance) : 
+- [RPN Phase 2 : Advanced React Concept](https://github.com/RPN-Phase-2/Week3-Front-End-Advance/blob/main/study-material/advance-react-concept.md)
+- [Next JS Learn](https://nextjs.org/learn)
+- [WebSockets Learn](https://blog.logrocket.com/websocket-tutorial-real-time-node-react/)
+- [10 React Hook Explained - FireShip](https://www.youtube.com/watch?v=TNhaISOUy6Q)
+
+Ketika kalian sudah ketemu dengan mid scale app, atau aplikasi yang lumayan besar. Maka akan sangat susah sekali untuk memanage komponen" react ini. Deliver datanya akan semakin sulit, rerendering semakin slow karena proses useEffect dimana mana, bahkan props yang terlalu banyak untuk dihandle karna komponen tree nya sudah sangat luas.
+
+Di stage inilah kalian akan belajar konsep advance frontend dimana kalian akan improve speed cara kerja komponen react dalam development website. Bagaimana cara mengatur props dan state yang banyak, bagaimana kita mengatur suatu unique hooks untuk beberapa case, dan masalah malah latency speed dalam pemrosesan komponen react ke dalam website.
+Kalian akan belajar menggunakan vite, dimana tools ini akan membungkus react project kalian dan menggunakan rollup modul dengan HMR vite agar pengaturan modul" yang ada react jadi ringan.
+Kalian juga akan belajar Core hooks (useRef, useContext, useCallback, useMemo) untuk menghandle case yang sulit, dan Advance React Concepts seperti (rendering logic, reusable hooks, patterns, composition to avoid prop drilling).
+
+Di Phase 2 ini akan sangat dinilai banget performance website react kalian, kalian dituntut untuk develop website react secara professional dimana data handling nya rapih dan komponen react reusable dan efektif di setiap case unique. tidak ada lagi membuat state banyak dan onChange banyak untuk handling form, tidak ada lagi useEffect sana sini untuk mengatur pengolahan data dari API. hal hal seperti itulah yang harus kita hindari di week3 ini.
+
+### Web3 Basic Integration 
+- Web3.js/Ethers.js
+- Wallet Introduction
+- MetaMask integration
+- Simple Dapp
+- Reading SmartContract
+
+
+📚Resources (Web3 Integration) : 
+- [web3js docs](https://docs.web3js.org/)
+- [Web3 React Intro](https://devm.io/react/react-frontend-web3-app)
+- [Simple Dapp](https://medium.com/@erinlim555/building-a-web3-app-with-react-f85843db2f47)
+- [Dapp Crash Course](https://www.youtube.com/watch?v=t3wM5903ty0&list=PLS5SEs8ZftgXlCGXNfzKdq7nGBcIaVOdN)
+
+Stage terakhir dari phase 2 adalah Web3 Integration, dimana perjalanan web3 kalian mulai dari sini. skill fullstack web2 kalian akan dikombinasikan dengan integrasi tools web3. Basic ini yang akan jadi penghubung kalian di next phase untuk belajar blockchain development sepenuhnya. Jadi fokus untuk develop fundamental Web3 dan cobain fitur fitur dari web3 js dan ethers.
+
+### Phase 2 Front End World Goals
+
+Di phase 2 harusnya kalian sudah bisa bekerja sebagai Fullstack developer di web2. dan bisa sedikit" untuk integrasi aplikasi simple Dapp.
+inilah milestone yang akan tercapai jika kalian finish phase 2 secara menyeluruh :
+
+- Fulstack Development (Handle both front end and backend)
+- Advance Hooks and NextJS
+- Web3 Integration (Simple Dapp and web3 libraries)
+- Fullstack work experience (WAJIB)
+
+
+## Phase 3 Fullstack Web3 Developer 
+![image](https://github.com/user-attachments/assets/c588d5b9-ec35-4693-997a-41ee3bf11bfa)
+
+Inilah Phase yang kalian tunggu", Phase terakhir dari kuliah web3 kalian. Di phase ini kita akan belajar lebih dalam tools" web3 dan Smart Contractnya. disini juga kalian akan membuat aplikasi web3 yang complex menggunakan ERC standard dan libraries up to date. 
+
+### SmartContract Development (Solidity)
+
+- Data types & variables
+- Functions & modifiers
+- Contract inheritance
+- Events & logs
+- Gas optimization
+
+Tools:
+- Hardhat/Truffle
+- Ganache (optional)
+- OpenZeppelin
+- Remix IDE
+- Web3 libraries (Wagmi, Viem, Moralis API)
+
+
+📚Resources (SmartContract Development) : 
+- [SmartContract KIT](https://github.com/smartcontractkit/full-blockchain-solidity-course-py)
+- [CryptoZombies](https://cryptozombies.io/)
+- [Levelup - Scroll](https://www.levelup.xyz/solidity)
+
+Tentu saja, mengetahui apa itu Smart Contract saja tidak cukup. Sebagai Developer Web3.0 atau Blockchain, Kalian harus tahu cara menulis Smart Contract Kalian sendiri dan menggunakannya untuk mendukung Aplikasi Terdesentralisasi Kalian sendiri. Di sinilah Solidity hadir untuk membantu.
+
+Solidity adalah bahasa pemrograman berorientasi kontrak tingkat tinggi untuk menulis Smart Contract yang memungkinkan programmer menulis kode yang dapat dieksekusi sendiri yang mendukung DApps blockchain.
+
+### Mastering Dapp Development
+
+Frontend Integration:
+
+- Web3 wallet integration
+- Transaction management
+- Event listening
+- Error handling
+- UX best practices
+
+Backend Services:
+
+- IPFS integration
+- TheGraph
+- Oracles (Chainlink)
+- Subgraphs
+- Off-chain data management
+- ThirdWeb
+
+Smart Contract Patterns:
+
+- ERC standards (20, 721, 1155)
+- Upgradeable contracts
+- Access control
+- Gas optimization patterns
+- Design patterns
+
+📚Resources (Dapp Development) : 
+- [Defi Developer Repo](https://github.com/OffcierCia/DeFi-Developer-Road-Map)
+- [WhiteBoard Crypto](https://www.youtube.com/c/WhiteboardCrypto)
+- [Fullstack NFT](https://www.web3.university/tracks/build-your-first-nft/building-a-full-stack-nft-dapp)
+- [Dapp Development Playlist](https://www.youtube.com/@daulathussain/playlists)
+
+
+
