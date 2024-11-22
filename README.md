@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/f1c70e85-623f-450e-bd8e-df2830928b79)
 
-Selamat datang di fullstack web3 dev roadmap ETH JKT, repo ini gua buat untuk resources pemula yang mau zero to hero untuk menjadi web3 developer. setelah gua speak di eth jkt intro, ini adalah lanjutan journey kalian untuk belajar semua materi blockchain development. ini akan menjadi journey yang sangat panjang, karna repo ini fokus mulai dari fundamental yang kuat dan dibuat se detail mungkin agar kalian menjadi web3 developer yang baik.
+Hao gua Faisal dari ethjkt, selamat datang di fullstack web3 dev roadmap ETH JKT. repo ini gua buat untuk resources pemula yang mau zero to hero untuk menjadi web3 developer. setelah gua speak di eth jkt intro, ini adalah lanjutan journey kalian untuk belajar semua materi blockchain development. ini akan menjadi journey yang sangat panjang, karna repo ini fokus mulai dari fundamental yang kuat dan dibuat se detail mungkin agar kalian menjadi web3 developer yang baik.
 Bisa dibilang ini kuliah online dengan eth jkt haha.
 
 
