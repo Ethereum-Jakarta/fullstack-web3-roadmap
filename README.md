@@ -249,13 +249,13 @@ Pada pengembangan backend , logika pemrograman adalah segalanya. karena modul mo
 - API authentication & security
 - Backend testing
 
-Di Stage ini kalian akan belajar Memasak berbagai hidangan yang akan kalian sajikan kepada para tamu nantinya. layaknya seperti seorang koki yang menyiapkan masakan dan meja makan untuk menghidangkan makanan, kalian para back end akan menyiapkan bermacam function dan data untuk diberikan kepada front end dan front end akan mem-visualisasikan data tersebut kedalam web. di sinilah kalian akan mempelajari bumbu-bumbu masakan tersebut untuk menciptakan hindangan yang lezat sebagai seorang backend seperti API, database, advance algorithm, Authentication & Authorization, dan lainnya.
-
 📚Resources (Backend API) : 
 - [RPN Phase 1](https://github.com/RPN-Phase-1)
 - [Rest API in nodejs](https://www.geeksforgeeks.org/what-is-rest-api-in-node-js/)
 - [Node js beginner - fireship ](https://www.youtube.com/watch?v=ENrzD9HAZK4&t=568s)
 - [Node js & Express Crash Course - FreeCodeCamp](https://www.youtube.com/watch?v=Oe421EPjeBE&t=1s)
+
+Di Stage ini kalian akan belajar Memasak berbagai hidangan yang akan kalian sajikan kepada para tamu nantinya. layaknya seperti seorang koki yang menyiapkan masakan dan meja makan untuk menghidangkan makanan, kalian para back end akan menyiapkan bermacam function dan data untuk diberikan kepada front end dan front end akan mem-visualisasikan data tersebut kedalam web. di sinilah kalian akan mempelajari bumbu-bumbu masakan tersebut untuk menciptakan hindangan yang lezat sebagai seorang backend seperti API, database, advance algorithm, Authentication & Authorization, dan lainnya.
 
 ### Cloud Deployment
 - Understanding Cloud Services
@@ -272,10 +272,9 @@ Di Stage ini kalian akan belajar Memasak berbagai hidangan yang akan kalian saji
 Cloud services stage terakhir diphase backend development, disini kalian akan belajar cara deploy API service kalian sampai bisa di konsum secara public/private dari forntend.
 Stage ini mungkin sangat membingunkan buat kalian, karena ada banyak banget service" cloud yang bisa dipakai di dunia IT. Benefitnya juga ada banyak berbagai macam jadi kalian harus cari mana yang cocok dan sesuai kebutuhan project kalian.
 
-
 ini tips dari gua untuk learn cloud deployment dan menghindari yang namanya "tutorial hell"
-### Key Tips for Success on learning cloud deployment:
 
+### Key Tips for Success on learning cloud deployment:
 Mulailah dari yang Kecil:
 - Mulailah dengan deploy situs web statis
 - Tambahkan kompleksitas secara bertahap
@@ -300,3 +299,9 @@ inilah milestone yang akan tercapai jika kalian finish phase 1 secara menyeluruh
 - Design Database (know business logic pattern, ERD, pre development)
 - Backend Development (REST API)
 - Deploy Backend Services
+
+
+## Phase 2 : Front End World
+![image](https://github.com/user-attachments/assets/4e62769d-749f-45e7-9d65-ee1fcec201d0)
+
+Di phase 2 ini kalian akan banyak belajar "sihir", sama seperti kalian menggunakan item-item dari pocket Doraemon. Semakin kalian banyak belajar item tersebut, semakin seru. Karena di front end ini dunia visual, belajar nya bakal lebih semangat karena hasil codingan kalian terlihat di layar. Item-item Doraemon ini sama saja seperti library-library front end yang kita pelajari, karena ada banyak sekali kombinasi framework + library di development front end.
