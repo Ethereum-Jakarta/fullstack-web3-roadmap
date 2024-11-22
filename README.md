@@ -251,7 +251,7 @@ Pada pengembangan backend , logika pemrograman adalah segalanya. karena modul mo
 
 Di Stage ini kalian akan belajar Memasak berbagai hidangan yang akan kalian sajikan kepada para tamu nantinya. layaknya seperti seorang koki yang menyiapkan masakan dan meja makan untuk menghidangkan makanan, kalian para back end akan menyiapkan bermacam function dan data untuk diberikan kepada front end dan front end akan mem-visualisasikan data tersebut kedalam web. di sinilah kalian akan mempelajari bumbu-bumbu masakan tersebut untuk menciptakan hindangan yang lezat sebagai seorang backend seperti API, database, advance algorithm, Authentication & Authorization, dan lainnya.
 
-📚Resources (Enhance Logic) : 
+📚Resources (Backend API) : 
 - [RPN Phase 1](https://github.com/RPN-Phase-1)
 - [Rest API in nodejs](https://www.geeksforgeeks.org/what-is-rest-api-in-node-js/)
 - [Node js beginner - fireship ](https://www.youtube.com/watch?v=ENrzD9HAZK4&t=568s)
