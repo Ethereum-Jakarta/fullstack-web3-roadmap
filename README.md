@@ -466,7 +466,7 @@ DAO Platform
 ### Continuous Learning
 
 Di stage ini kalian sudah bisa bekerja sebagai fullstack web3 Developer, jenjang selanjutnya adalah belajar terus menerus tanpa henti. karna kalian masih ketinggalan dengan topic" baru di web3.
-kalian harus mengejar teknology yang hype sekarang dan advance topic baru di web3.
+kalian harus mengejar technology yang hype sekarang dan advance topic baru di web3.
 
 Layer 2 Solutions
 - Rollups (Optimistic/ZK)
