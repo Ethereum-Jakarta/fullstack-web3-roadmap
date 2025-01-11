@@ -5,6 +5,8 @@
 Halo gua Faisal dari ethjkt, selamat datang di fullstack web3 dev roadmap ETH JKT. repo ini gua buat untuk resources pemula yang mau zero to hero untuk menjadi web3 developer. setelah gua speak di eth jkt intro, ini adalah lanjutan journey kalian untuk belajar semua materi blockchain development. ini akan menjadi journey yang sangat panjang, karna repo ini fokus mulai dari fundamental yang kuat dan dibuat se detail mungkin agar kalian menjadi web3 developer yang baik.
 Bisa dibilang ini kuliah online dengan eth jkt haha.
 
+RPN adalah resource belajar web2 development buatan gua sendiri, jadi gue akan senang sekali jika kalian belajar pake resource ini karena ini gratis dan materi materi nya persis gua design seperti apa yang gua pelajarin pas gua awal awal jadi pemula.
+
 
 ## Apa itu Fullstack Web3 Developer ? 
 
@@ -113,7 +115,7 @@ Peluang Karir:
 ## Phase 0 : Foundation
 ![image](https://github.com/user-attachments/assets/803621f8-e0a1-479d-97b3-3322cdf1bcca)
 
-Kita langsung saja mulai di phase 0, phase dimana kalian belajar fundamental dari programming, web apps, dan nyicil teori blockchain. Di journey gua ini, kita pake bahasa javascript untuk handle fullstack (front end & backend). alasannya karna javascript ini bahasa paling flexible. Dia bisa membuat (front end & backend) dengan 1 bahasa yang sama. Ini akan mempercepat learning curve kalian dari pada kalian harus belajar bahasa pemrograman yang lain.
+Kita langsung saja mulai di phase 0, phase dimana kalian belajar fundamental dari programming, web apps, dan nyicil belajar teori blockchain. Di journey gua ini, kita pake bahasa javascript untuk handle fullstack (front end & backend). alasannya karna javascript ini bahasa paling flexible. Dia bisa membuat (front end & backend) dengan 1 bahasa yang sama. Ini akan mempercepat learning curve kalian dari pada kalian harus belajar bahasa pemrograman yang lain.
 
 
 *Untuk yang NON IT, dan pertama kali menyentuh programming atau orang" yang belum mengerti dasar komputer silahkan belajar *dasar dasar IT*
@@ -122,9 +124,9 @@ Kita langsung saja mulai di phase 0, phase dimana kalian belajar fundamental dar
 - [Introduction to Programming and Computer Science - FreeCodeCamp](https://www.youtube.com/watch?v=zOjov-2OZ0E)
 - [100+ Computer Science Concepts Explained - FireShip](https://www.youtube.com/watch?v=-uleG_Vecis&t=12s)
 
-Untuk orang" yang sudah mengeri konsep IT dan dasar komputer bisa lanjut untuk roadmap phase 0 foundation nya.
+Untuk orang" yang sudah mengerti konsep IT dan dasar komputer bisa lanjut untuk roadmap phase 0 foundation nya.
 
-Foundation ini terbagi menjadi 4 part, part terakhir untuk "Blockchain Foundation" ini optional dan bisa dicicil selagi kalian menjalani roadmapnya.
+Foundation ini terbagi menjadi 4 part, part terakhir untuk "Blockchain Foundation" dan bisa dicicil selagi kalian menjalani roadmapnya.
 
 ### Learn Basic Tools :
 
@@ -181,7 +183,7 @@ Asah level logic kalian sampe bisa menyelesaikan kyu 6/5 di codewars, ini akan m
 
 Distage ini kalian mulai belajar membuat UI di website, HTML & CSS adalah makananan kalian sehari hari. Utamakan pelajarin konsepnya daripada mempercantik website saja. karna masalah bagus" an UI itu masuknya di phase 2 nanti front end advance. di stage ini fokus kalian untuk pengenalan cara website bekerja di web2. 
 
-### Blockchain Theory (Optional)
+### Blockchain Theory 
 - Blockchain architecture
 - Consensus mechanisms
 - Public vs private blockchains
@@ -192,6 +194,7 @@ Distage ini kalian mulai belajar membuat UI di website, HTML & CSS adalah makana
 - [Bitcoin Documentation](https://developer.bitcoin.org/)
 - [Ethereum Documentation](https://ethereum.org/en/developers/docs/)
 - [Hyperledger Documentation](https://www.hyperledger.org/learn)
+- [Proof Of Work](https://www.investopedia.com/terms/p/proof-work.asp)
 
 - [Whiteboard Crypto](https://www.youtube.com/@WhiteboardCrypto)
 White board crypto ini berguna banget buat pemula, video yang dia buat sangat interaktif dan mudah dimengerti. kalian bisa langsung tulis aja keyword blockchain yang kalian mau pelajari seperti ini :
@@ -204,13 +207,13 @@ White board crypto ini berguna banget buat pemula, video yang dia buat sangat in
 - [Blockchain Knowledge - BlockDevID](https://blockdev.id/knowledge) -> Newbie friendly dan berbahasa indonesia, salah satu komunitas web3 dev terbesar di indo.
 
 
-Blockchain theory ini optional, dan boleh kalian cicil selama phase 0 sampe phase 2. Ini kalian bisa pelajari pelan pelan dan coba praktek kecil kecilan. praktek paling simple adalah mencoba untuk mebuat wallet di web3, swap token di berbagai DApp, interact ke beberapa smartcontract. Jika kalian trader yang sudah paham flow exchange dan DEX harusnya teori kalian dalam blockchain sudah lumayan kuat. Tinggal pelajari gimana mekanisme network blockchain bekerja saja dan Cryptographic hash nya. 
+Blockchain theory ini panjang sekali belajarnya. jadi boleh kalian cicil selama phase 0 sampe phase 2. Ini kalian bisa pelajari pelan pelan dan coba praktek kecil kecilan. praktek paling simple adalah mencoba untuk mebuat wallet di web3, swap token di berbagai DApp, interact ke beberapa smartcontract. Jika kalian trader yang sudah paham flow exchange dan DEX harusnya teori kalian dalam blockchain sudah lumayan kuat. Tinggal pelajari gimana mekanisme network blockchain bekerja saja dan Cryptographic hash nya. 
 
 Sering sering membaca transaction hash juga habbit yang bagus, karna ketika menjadi web3 dev kalian akan sering untuk manage Tx hash. kalian bisa build habbit nya dari sekarang pas awal" membuat pondasi pemrograman.
 
 ### Phase 0 Foundation Goals
 
-Ini adalah target" yang harus kalian capain di phase foundation, parameter inilah yang membuktikan kalo kalian pantas untuk melanjutkan phase selanjutnya. 
+Ini adalah target" yang harus kalian capai di phase foundation, parameter inilah yang membuktikan kalo kalian pantas untuk melanjutkan phase selanjutnya. 
 
 - JS Codewars, Kyu 5/6
 - Github Commits, Collaboration, and resolving conflicts
@@ -224,7 +227,7 @@ Ini adalah target" yang harus kalian capain di phase foundation, parameter inila
 
 Backend Aplikasi Terdesentralisasi sangat berbeda dari backend aplikasi “standar”, dimulai dari fakta bahwa teknologi Blockchain digunakan sebagai sumber utama penyimpanan data terdesentralisasi, sedangkan backend standar biasanya menggunakan Basis Data atau Penyimpanan Objek.
 
-Namun, sebagian besar prinsip teknis tetap sama, dan tidak disarankan untuk langsung terjun ke pengembangan blockchain dan web3.0 tanpa landasan yang kuat dari prinsip utama pengembangan web standar.
+Namun, sebagian besar prinsip teknis tetap sama, dan tidak disarankan untuk langsung terjun ke pengembangan blockchain dan web3.0 tanpa landasan yang kuat dari prinsip utama pengembangan web2 standar.
 
 ### Enhance Logic
 - Clean Code Introduction
