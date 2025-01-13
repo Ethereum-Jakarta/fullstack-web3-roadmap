@@ -1,6 +1,6 @@
 # fullstack-web3-roadmap
 
-![image](https://github.com/user-attachments/assets/f1c70e85-623f-450e-bd8e-df2830928b79)
+![image](img/evoweb3.png)
 
 Halo gua Faisal dari ethjkt, selamat datang di fullstack web3 dev roadmap ETH JKT. repo ini gua buat untuk resources pemula yang mau zero to hero untuk menjadi web3 developer. setelah gua speak di eth jkt intro, ini adalah lanjutan journey kalian untuk belajar semua materi blockchain development. ini akan menjadi journey yang sangat panjang, karna repo ini fokus mulai dari fundamental yang kuat dan dibuat se detail mungkin agar kalian menjadi web3 developer yang baik.
 Bisa dibilang ini kuliah online dengan eth jkt haha.
@@ -113,7 +113,7 @@ Peluang Karir:
 
 
 ## Phase 0 : Foundation
-![image](https://github.com/user-attachments/assets/803621f8-e0a1-479d-97b3-3322cdf1bcca)
+![image](img/phase0.png)
 
 Kita langsung saja mulai di phase 0, phase dimana kalian belajar fundamental dari programming, web apps, dan nyicil belajar teori blockchain. Di journey gua ini, kita pake bahasa javascript untuk handle fullstack (front end & backend). alasannya karna javascript ini bahasa paling flexible. Dia bisa membuat (front end & backend) dengan 1 bahasa yang sama. Ini akan mempercepat learning curve kalian dari pada kalian harus belajar bahasa pemrograman yang lain.
 
@@ -200,7 +200,7 @@ Distage ini kalian mulai belajar membuat UI di website, HTML & CSS adalah makana
 White board crypto ini berguna banget buat pemula, video yang dia buat sangat interaktif dan mudah dimengerti. kalian bisa langsung tulis aja keyword blockchain yang kalian mau pelajari seperti ini :
 
 "Whiteboard Crypto What is Blockchain" -> https://www.youtube.com/watch?v=kHybf1aC-jE&t=1s
-![image](https://github.com/user-attachments/assets/768d16a7-e812-4c68-8472-0644a1cc63df)
+![image](img/whiteboard.png)
 
 - [Crypto Hash - GeeksForGeeks](https://www.geeksforgeeks.org/cryptography-hash-functions/)
 
@@ -223,7 +223,7 @@ Ini adalah target" yang harus kalian capai di phase foundation, parameter inilah
 
 ## Phase 1 : Backend Development (Web2)
 
-![image](https://github.com/user-attachments/assets/d1c2043a-def2-4040-8c67-f25dd53c9d99)
+![image](img/phase1.png)
 
 Backend Aplikasi Terdesentralisasi sangat berbeda dari backend aplikasi “standar”, dimulai dari fakta bahwa teknologi Blockchain digunakan sebagai sumber utama penyimpanan data terdesentralisasi, sedangkan backend standar biasanya menggunakan Basis Data atau Penyimpanan Objek.
 
@@ -305,7 +305,7 @@ inilah milestone yang akan tercapai jika kalian finish phase 1 secara menyeluruh
 
 
 ## Phase 2 : Front End World
-![image](https://github.com/user-attachments/assets/4e62769d-749f-45e7-9d65-ee1fcec201d0)
+![image](img/phase2.png)
 
 Di phase 2 ini kalian akan banyak belajar "sihir", sama seperti kalian menggunakan item-item dari pocket Doraemon. Semakin kalian banyak belajar item tersebut, semakin seru. Karena di front end ini dunia visual, belajar nya bakal lebih semangat karena hasil codingan kalian terlihat di layar. Item-item Doraemon ini sama saja seperti library-library front end yang kita pelajari, karena ada banyak sekali kombinasi framework + library di development front end.
 
@@ -377,7 +377,7 @@ inilah milestone yang akan tercapai jika kalian finish phase 2 secara menyeluruh
 
 
 ## Phase 3 Fullstack Web3 Developer 
-![image](https://github.com/user-attachments/assets/c588d5b9-ec35-4693-997a-41ee3bf11bfa)
+![image](img/phase3.png)
 
 Inilah Phase yang kalian tunggu", Phase terakhir dari kuliah web3 kalian. Di phase ini kita akan belajar lebih dalam tools" web3 dan Smart Contractnya. disini juga kalian akan membuat aplikasi web3 yang complex menggunakan ERC standard dan libraries up to date. 
 
