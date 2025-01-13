@@ -376,6 +376,13 @@ inilah milestone yang akan tercapai jika kalian finish phase 2 secara menyeluruh
 - Fullstack work experience (WAJIB)
 
 
+Jadi sebelum kalian memasuki phase 3, syarat utamanya adalah kalian harus mencari pengalaman kerja real sebagai Programmer. Dengan selesai nya phase 2, kalian harus rapihkan semua portofolio dan membuat profile (CV) untuk melamar pekerjaan di web2 company. Kalian bebas mau melamar apa saja, bisa backend developer, front end developer atau Fullstack developer.
+
+Setelah kalian mendapatkan kerja sebagai developer di web2 company, Kalian akan tetap terus belajar web3 development dan melanjutkan perjalanan kalian ke phase 3. Ambil pengalaman sekitar 2-3 tahun Tegantung berapa lama kalian belajar web3.
+
+jadi sambil kerja kalian sambil belajar tentang web3. Ketika phase 3 sudah selesai atau kalian merasa sudah siap menjadi web3 developer, kalian bisa melepas web2 job kalian dan mencoba melamar Web3 developer ketika serasa sudah siap dengan skillnya.
+
+
 ## Phase 3 Fullstack Web3 Developer 
 ![image](img/phase3.png)
 
