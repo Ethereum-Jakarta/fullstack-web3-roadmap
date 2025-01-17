@@ -400,7 +400,7 @@ Tools:
 - Hardhat/Truffle
 - Ganache (optional)
 - OpenZeppelin
-- Remix IDE
+- Remix IDE (Tools Newbie Friendly) : https://remix.ethereum.org/
 - Web3 libraries (Wagmi, Viem, Moralis API)
 
 
@@ -412,6 +412,8 @@ Tools:
 Tentu saja, mengetahui apa itu Smart Contract saja tidak cukup. Sebagai Developer Web3.0 atau Blockchain, Kalian harus tahu cara menulis Smart Contract Kalian sendiri dan menggunakannya untuk mendukung Aplikasi Terdesentralisasi Kalian sendiri. Di sinilah Solidity hadir untuk membantu.
 
 Solidity adalah bahasa pemrograman berorientasi kontrak tingkat tinggi untuk menulis Smart Contract yang memungkinkan programmer menulis kode yang dapat dieksekusi sendiri yang mendukung DApps blockchain.
+
+
 
 ### Mastering Dapp Development
 
