@@ -304,50 +304,123 @@ inilah milestone yang akan tercapai jika kalian finish phase 1 secara menyeluruh
 - Deploy Backend Services
 
 
-## Phase 2 : Front End World
+## Phase 2 : Front End World (6 Weeks)
 ![image](img/phase2.png)
+
+> **📊 Total: 45+ study materials, 21+ arcane quests, 6+ quizzes across 6 weeks**
 
 Di phase 2 ini kalian akan banyak belajar "sihir", sama seperti kalian menggunakan item-item dari pocket Doraemon. Semakin kalian banyak belajar item tersebut, semakin seru. Karena di front end ini dunia visual, belajar nya bakal lebih semangat karena hasil codingan kalian terlihat di layar. Item-item Doraemon ini sama saja seperti library-library front end yang kita pelajari, karena ada banyak sekali kombinasi framework + library di development front end.
 
-### Front End Development
-- React.js
-- Props & State
-- UseEffect
-- State management (Redux/Context API)
-- CSS Library/Framework (TailwindCSS, MaterialUI, etc)
-- Frontend testing (Jest, React Testing Library)
-- Backend API Integration (Fetch, Axios, dll)
+---
 
-📚Resources (Front End Development) : 
-- [RPN Phase 2 : Reactjs](https://github.com/RPN-Phase-2/Week2-Reactjs)
+### Week 1 : Frontend Basic (HTML/CSS/jQuery)
+📦 [Repo: phase-2-week1-frontend-basic](https://github.com/Ethereum-Jakarta/phase-2-week1-frontend-basic)
+
+- HTML structure & semantic elements
+- CSS Flexbox & Grid
+- jQuery basics & DOM manipulation
+- Local Storage
+- Deploy ke Vercel
+
+Di week pertama ini kalian balik lagi ke basic, tapi kali ini kita dalemin. Bukan cuma bikin website statis, tapi beneran paham gimana HTML/CSS bekerja di bawah dan cara manipulasi DOM yang proper.
+
+---
+
+### Week 2 : React.js
+📦 [Repo: phase-2-week2-reactjs](https://github.com/Ethereum-Jakarta/phase-2-week2-reactjs)
+
+- React components & JSX
+- Props & State
+- React Hooks (useState, useEffect)
+- Tailwind CSS
+- React Router
+
+Di stage ini sudah saatnya kalian gabungkan Service Backend API dengan Front end untuk membuat 1 aplikasi fullstack utuh, kalian bisa merasakan flow engineering pada web2 dan cara kerja Web Apps sepenuhnya.
+
+📚Resources:
 - [ReactJs Crash Course - TraversyMedia](https://www.youtube.com/watch?v=LDB4uaJ87e0)
 - [Belajar TailwindCSS - WPU](https://www.youtube.com/watch?v=z3slaXqmkT0&list=PLFIM0718LjIUHFRMzPJ0wGjx9_NlC5d1h)
 - [Redux - FireShip](https://www.youtube.com/watch?v=_shA5Xwe8_4)
 
-Di stage ini sudah saatnya kalian gabungkan Service Backend API dengan Front end untuk membuat 1 aplikasi fullstack utuh, kalian bisa merasakan flow engineering pada web2 dan cara kerja Web Apps sepenuhnya.
+---
 
-### Front End Advance
-- Vite Bundler
-- Advance React Hooks (useMemo, useCallback, useContext, useForm)
-- NextJS Framework
-- Pre-rendering and Data Fetching (SSG, SSR)
-- Dynamic Routes
-- Tanstack
-- Realtime Data (Websockets)
+### Week 3 : Advanced Frontend
+📦 [Repo: phase-2-week3-frontend-advance](https://github.com/Ethereum-Jakarta/phase-2-week3-frontend-advance)
 
-📚Resources (Front End Advance) : 
-- [RPN Phase 2 : Advanced React Concept](https://github.com/RPN-Phase-2/Week3-Front-End-Advance/blob/main/study-material/advance-react-concept.md)
+> 16 study materials · 5 arcane quests · 3 quizzes
+
+- Vite Bundler & HMR
+- Advanced React Hooks (useMemo, useCallback, useRef, useContext)
+- useReducer & Advanced State Patterns
+- Custom Hooks
+- React Performance Optimization
+- TanStack Query, Router, Table, Form
+- Redux Toolkit
+- Cypress E2E Testing
+- Stripe & Clerk Integration
+- Code Review Best Practices
+
+Ketika kalian sudah ketemu dengan mid scale app, atau aplikasi yang lumayan besar. Maka akan sangat susah sekali untuk memanage komponen" react ini. Di stage inilah kalian akan belajar konsep advance frontend dimana kalian akan improve speed cara kerja komponen react dalam development website.
+
+Di Phase 2 ini akan sangat dinilai banget performance website react kalian, kalian dituntut untuk develop website react secara professional dimana data handling nya rapih dan komponen react reusable dan efektif di setiap case unique. tidak ada lagi membuat state banyak dan onChange banyak untuk handling form, tidak ada lagi useEffect sana sini untuk mengatur pengolahan data dari API.
+
+📚Resources:
 - [Next JS Learn](https://nextjs.org/learn)
 - [WebSockets Learn](https://blog.logrocket.com/websocket-tutorial-real-time-node-react/)
 - [10 React Hook Explained - FireShip](https://www.youtube.com/watch?v=TNhaISOUy6Q)
 
-Ketika kalian sudah ketemu dengan mid scale app, atau aplikasi yang lumayan besar. Maka akan sangat susah sekali untuk memanage komponen" react ini. Deliver datanya akan semakin sulit, rerendering semakin slow karena proses useEffect dimana mana, bahkan props yang terlalu banyak untuk dihandle karna komponen tree nya sudah sangat luas.
+---
 
-Di stage inilah kalian akan belajar konsep advance frontend dimana kalian akan improve speed cara kerja komponen react dalam development website. Bagaimana cara mengatur props dan state yang banyak, bagaimana kita mengatur suatu unique hooks untuk beberapa case, dan masalah malah latency speed dalam pemrosesan komponen react ke dalam website.
-Kalian akan belajar menggunakan vite, dimana tools ini akan membungkus react project kalian dan menggunakan rollup modul dengan HMR vite agar pengaturan modul" yang ada react jadi ringan.
-Kalian juga akan belajar Core hooks (useRef, useContext, useCallback, useMemo) untuk menghandle case yang sulit, dan Advance React Concepts seperti (rendering logic, reusable hooks, patterns, composition to avoid prop drilling).
+### Week 4 : State Management & API Integration
+📦 [Repo: phase-2-week4-state-and-api](https://github.com/Ethereum-Jakarta/phase-2-week4-state-and-api)
 
-Di Phase 2 ini akan sangat dinilai banget performance website react kalian, kalian dituntut untuk develop website react secara professional dimana data handling nya rapih dan komponen react reusable dan efektif di setiap case unique. tidak ada lagi membuat state banyak dan onChange banyak untuk handling form, tidak ada lagi useEffect sana sini untuk mengatur pengolahan data dari API. hal hal seperti itulah yang harus kita hindari di week3 ini.
+> 15 study materials · 5 arcane quests · 3 quizzes
+
+- Zustand State Management
+- Data Fetching Patterns
+- Axios Service Layer
+- React Query Advanced CRUD
+- JWT Authentication
+- Protected Routes & RBAC
+- WebSocket Real-time Data
+- Error Handling & Loading States
+- API Caching Strategies
+
+Di week ini kalian belajar gimana caranya manage data yang complex di frontend. State management bukan cuma soal useState — kalian butuh tools yang proper kayak Zustand buat handle global state, React Query buat server state, dan WebSocket buat real-time data.
+
+---
+
+### Week 5 : Fullstack Capstone (Individual)
+📦 [Repo: phase-2-week5-fullstack-capstone](https://github.com/Ethereum-Jakarta/phase-2-week5-fullstack-capstone)
+
+> 12 study materials · 4 arcane quests
+
+- Project Planning & Architecture
+- Fullstack App Design (Monorepo vs Polyrepo)
+- Testing (Vitest + Playwright)
+- CI/CD Pipeline (GitHub Actions)
+- Deploy (Vercel + Railway)
+- Monitoring (Sentry)
+- Portfolio Preparation
+
+Week 5 adalah capstone individual — kalian bikin 1 fullstack app dari nol sampe deploy. Ini bukan tutorial, ini project beneran. Planning, architecture, testing, CI/CD, monitoring — semua kalian handle sendiri.
+
+---
+
+### Week 6 : Group Capstone + Demo Day 🏛️
+📦 [Repo: phase-2-week6-group-capstone](https://github.com/Ethereum-Jakarta/phase-2-week6-group-capstone)
+
+> 2 study materials · 2 arcane quests
+
+- Team Git Collaboration (branching, PRs, merge conflicts)
+- Code Standards (ESLint, Prettier, Husky, lint-staged)
+- Group Capstone Project (bigger scope: WebSocket, RBAC, Admin Panel, File Uploads)
+- 5 project options: Marketplace, Chronicle, Board, Codex, or Custom
+- **Demo Day** presentation on Discord "Magic Temple" voice channel
+
+Week terakhir! Kalian kerja dalam tim untuk bikin project yang lebih gede dari capstone individual. Ada mandatory extras (WebSocket, RBAC, Admin Panel, File Uploads) dan di akhir kalian presentasi di Magic Temple 🏛️
+
+---
 
 ### Web3 Basic Integration 
 - Web3.js/Ethers.js
@@ -355,7 +428,6 @@ Di Phase 2 ini akan sangat dinilai banget performance website react kalian, kali
 - MetaMask integration
 - Simple Dapp
 - Reading SmartContract
-
 
 📚Resources (Web3 Integration) : 
 - [web3js docs](https://docs.web3js.org/)
@@ -365,13 +437,17 @@ Di Phase 2 ini akan sangat dinilai banget performance website react kalian, kali
 
 Stage terakhir dari phase 2 adalah Web3 Integration, dimana perjalanan web3 kalian mulai dari sini. skill fullstack web2 kalian akan dikombinasikan dengan integrasi tools web3. Basic ini yang akan jadi penghubung kalian di next phase untuk belajar blockchain development sepenuhnya. Jadi fokus untuk develop fundamental Web3 dan cobain fitur fitur dari web3 js dan ethers.
 
+---
+
 ### Phase 2 Front End World Goals
 
 Di phase 2 harusnya kalian sudah bisa bekerja sebagai Fullstack developer di web2. dan bisa sedikit" untuk integrasi aplikasi simple Dapp.
 inilah milestone yang akan tercapai jika kalian finish phase 2 secara menyeluruh :
 
 - Fulstack Development (Handle both front end and backend)
-- Advance Hooks and NextJS
+- Advance Hooks, TanStack, and State Management
+- Testing & CI/CD Pipeline
+- Group collaboration & code review
 - Web3 Integration (Simple Dapp and web3 libraries)
 - Fullstack work experience (WAJIB)
 
