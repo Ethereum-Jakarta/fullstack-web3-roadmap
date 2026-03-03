@@ -2,586 +2,524 @@
 
 ![image](img/evoweb3.png)
 
-Halo gua Faisal dari ethjkt, selamat datang di fullstack web3 dev roadmap ETH JKT. repo ini gua buat untuk resources pemula yang mau zero to hero untuk menjadi web3 developer. setelah gua speak di eth jkt intro, ini adalah lanjutan journey kalian untuk belajar semua materi blockchain development. ini akan menjadi journey yang sangat panjang, karna repo ini fokus mulai dari fundamental yang kuat dan dibuat se detail mungkin agar kalian menjadi web3 developer yang baik.
-Bisa dibilang ini kuliah online dengan eth jkt haha.
+Halo gua Faisal dari ETH JKT, selamat datang di **Fullstack Web3 Dev Roadmap** Ethereum Jakarta. Repo ini gua buat sebagai panduan lengkap untuk kalian yang mau **zero to hero** menjadi Web3 developer.
 
-RPN adalah resource belajar web2 development buatan gua sendiri, jadi gue akan senang sekali jika kalian belajar pake resource ini karena ini gratis dan materi materi nya persis gua design seperti apa yang gua pelajarin pas gua awal awal jadi pemula.
+Setelah gua speak di ETH JKT intro, ini adalah lanjutan journey kalian untuk belajar semua materi blockchain development. Journey ini panjang — karena repo ini fokus mulai dari fundamental yang kuat dan dibuat sedetail mungkin agar kalian menjadi Web3 developer yang berkualitas. Bisa dibilang ini kuliah online bareng ETH JKT.
 
+> **Last Updated:** Maret 2026 — Sudah include update Pectra, Fusaka, EIP-8141, dan resource terbaru.
 
-## Apa itu Fullstack Web3 Developer ? 
+### ETHJKT Tower Course
+Semua materi course lengkap dari Phase 0 sampai Phase 3 ada di repo **ETHJKT Tower Course**. Repo ini berisi study materials, arcane quests, quizzes, dan semua yang kalian butuhkan untuk menjalani roadmap ini secara terstruktur.
 
-Full-stack Web3 Developer adalah developer yang mampu membangun aplikasi terdesentralisasi (DApp) secara menyeluruh, mulai dari frontend hingga smart contract blockchain. 
+> [github.com/Ethereum-Jakarta/ethjkt-course](https://github.com/Ethereum-Jakarta/ethjkt-course) — ETHJKT Full Stack Web3 Developer Course: From Foundation to Blockchain
+
+---
+
+## Curated Learning Resources
+
+Sebelum masuk ke roadmap, ini adalah kumpulan resource terbaik yang gratis dan berkualitas tinggi. Bookmark semua ini — kalian bakal bolak-balik pake sepanjang journey.
+
+### Starter Kit — Mulai Dari Sini
+| # | Resource | Link | Deskripsi |
+|---|----------|------|-----------|
+| 1 | **Ethereum.org Developer Docs** | [ethereum.org/developers/docs](https://ethereum.org/developers/docs/) | Dokumentasi resmi Ethereum Foundation — referensi utama untuk semua konsep Ethereum |
+| 2 | **Cyfrin Updraft** | [updraft.cyfrin.io](https://updraft.cyfrin.io/courses) | Course gratis dari Patrick Collins: Blockchain Basics, Solidity, Foundry, Security Auditing (100k+ students) |
+| 3 | **CryptoZombies** | [cryptozombies.io](https://cryptozombies.io/) | Tutorial interaktif gamified — belajar Solidity dengan bikin game zombie. Cocok banget buat pemula |
+| 4 | **Solidity by Example** | [solidity-by-example.org](https://solidity-by-example.org/) | Kumpulan code snippet Solidity pendek dan jelas — reference cepat untuk belajar by reading code |
+
+### Development Tools
+| # | Resource | Link | Deskripsi |
+|---|----------|------|-----------|
+| 5 | **Remix IDE** | [remix.ethereum.org](https://remix.ethereum.org/) | IDE Solidity di browser, zero setup — cara paling cepat buat tulis dan test smart contract pertama |
+| 6 | **Foundry Book** | [book.getfoundry.sh](https://book.getfoundry.sh/) | Dokumentasi Foundry (Forge, Cast, Anvil) — development toolkit standar industri sekarang |
+| 7 | **Scaffold-ETH 2** | [scaffoldeth.io](https://scaffoldeth.io/) | Toolkit open-source buat rapid prototyping dApp — Foundry + Next.js + komponen Web3 siap pakai |
+| 8 | **OpenZeppelin Wizard** | [wizard.openzeppelin.com](https://wizard.openzeppelin.com/) | Generator smart contract point-and-click — bikin ERC-20, ERC-721, Governor dengan library yang udah di-audit |
+
+### Courses & Tutorials Lengkap
+| # | Resource | Link | Deskripsi |
+|---|----------|------|-----------|
+| 9 | **Patrick Collins Full Course (YouTube)** | [youtube.com - Cyfrin Foundry](https://www.youtube.com/watch?v=-1GB6m39-rM) | Course 38+ jam gratis di freeCodeCamp — dari nol sampai advanced Solidity, Foundry, DeFi |
+| 10 | **SpeedRunEthereum** | [speedrunethereum.com](https://speedrunethereum.com/) | Challenge hands-on: bikin NFT, DEX, dll pakai Scaffold-ETH. Selesaikan untuk dapet builder credential |
+| 11 | **Alchemy University** | [alchemy.com/university](https://www.alchemy.com/university) | Bootcamp 7 minggu gratis — Solidity, Hardhat, fullstack dApp, ada sertifikat |
+| 12 | **LearnWeb3 DAO** | [learnweb3.io](https://learnweb3.io/) | Platform gratis dengan track Freshman sampai Senior — Solidity, DeFi, NFT, DAO, L2 (110k+ devs) |
+| 13 | **Web3 University (Alchemy)** | [web3.university](https://www.web3.university/) | Tutorial hub dengan "Road to Web3" — 10 minggu project-based learning |
+| 14 | **Developer DAO Academy** | [academy.developerdao.com](https://academy.developerdao.com/) | Platform komunitas open-source buat belajar Web3 bareng |
+
+### Security & Advanced
+| # | Resource | Link | Deskripsi |
+|---|----------|------|-----------|
+| 15 | **Ethernaut (OpenZeppelin)** | [ethernaut.openzeppelin.com](https://ethernaut.openzeppelin.com/) | Wargame — setiap level adalah smart contract vulnerable yang harus kalian exploit. Wajib buat belajar security |
+| 16 | **Damn Vulnerable DeFi** | [damnvulnerabledefi.xyz](https://www.damnvulnerabledefi.xyz/) | Challenge advanced: flash loan exploit, price manipulation, governance attack — training ground auditor |
+| 17 | **RareSkills** | [rareskills.io](https://www.rareskills.io/) | Exercise gratis: gas optimization, EVM internals, ZK circuits — level up ke senior Web3 engineer |
+
+### Reference & Discovery
+| # | Resource | Link | Deskripsi |
+|---|----------|------|-----------|
+| 18 | **Solidity Official Docs** | [docs.soliditylang.org](https://docs.soliditylang.org/) | Referensi bahasa Solidity yang lengkap — syntax, types, inheritance, security considerations |
+| 19 | **useWeb3** | [useweb3.xyz](https://www.useweb3.xyz/) | Aggregator kurasi resource Web3 terbaik — tutorials, courses, tools, boilerplate |
+| 20 | **BlockDev ID** | [blockdev.id/knowledge](https://blockdev.id/knowledge) | Komunitas Web3 dev Indonesia — resource berbahasa Indonesia, newbie friendly |
+
+### Recommended Learning Path
+```
+1. Mulai    → Ethereum.org Docs + Cyfrin Updraft Blockchain Basics
+2. Code     → Remix IDE + CryptoZombies + Solidity by Example
+3. Build    → Scaffold-ETH 2 + SpeedRunEthereum challenges
+4. Deep     → Patrick Collins YouTube + Foundry Book
+5. Security → Ethernaut + Damn Vulnerable DeFi
+6. Level Up → RareSkills + Alchemy University
+```
+
+---
+
+## Apa itu Fullstack Web3 Developer?
+
+Full-stack Web3 Developer adalah developer yang mampu membangun aplikasi terdesentralisasi (DApp) secara menyeluruh, mulai dari frontend hingga smart contract blockchain.
 
 Mari kita breakdown komponen-komponennya:
 
-"Full-stack" artinya:
-
+**"Full-stack" artinya:**
 - Menguasai development Frontend (UI)
 - Menguasai development Backend (server logic)
 - Mampu mengintegrasikan keduanya
 
-"Web3" menambahkan kemampuan:
-
+**"Web3" menambahkan kemampuan:**
 - Development Smart Contract
 - Integrasi dengan blockchain
 - Pengelolaan data terdesentralisasi
 
+**Tools dan Teknologi yang Digunakan:**
 
-Tanggung Jawab Utama:
+| Layer | Teknologi |
+|-------|-----------|
+| Frontend | React/Next.js, Tailwind, wagmi, viem, RainbowKit |
+| Smart Contract | Solidity, Foundry (Forge/Cast/Anvil), OpenZeppelin |
+| Backend | Node.js, Express, PostgreSQL, TheGraph, IPFS |
+| Blockchain | Ethereum, L2s (Base, Arbitrum, Optimism), Testnets |
+| Wallet | MetaMask, WalletConnect |
 
-- Membuat UI yang interaktif
-- Membuat dan men-deploy smart contract
-- Mengintegrasikan wallet crypto (seperti MetaMask)
-- Mengelola transaksi blockchain
-- Mengimplementasikan fitur DeFi, NFT, atau DAO
-- Menjaga keamanan aplikasi
-
-
-Perbedaan dengan Web2 Developer Tradisional:
-
-Web2 (Tradisional):
-
-- Data terpusat di server
-- Menggunakan database tradisional
-- Autentikasi dengan username/password
-- Pembayaran melalui gateway tradisional
-
-Web3:
-
-- Data terdesentralisasi di blockchain
-- Menggunakan smart contract
-- Autentikasi dengan crypto wallet
-- Transaksi menggunakan cryptocurrency
-
-
-Tools dan Teknologi yang Digunakan:
-
-Frontend:
-
-- React/Vue/Angular
-- Web3.js/Ethers.js
-- MetaMask integration
-
-Smart Contract:
-
-- Solidity
-- Hardhat/Truffle
-- IPFS
-
-Backend:
-
-- Node.js
-- Web3 libraries
-- Blockchain nodes
-
-
-Contoh Aplikasi yang Dibuat:
-
-- DEX (Decentralized Exchange)
-- NFT Marketplace
-- DeFi lending platform
-- DAO governance systems
-- Play-to-earn games
-
-
-Keuntungan Menjadi Web3 Developer:
-
-- Permintaan tinggi di industri
-- Gaji kompetitif
-- Bekerja dengan teknologi cutting-edge
-- Berkontribusi pada masa depan internet
-- Komunitas yang aktif dan mendukung
-
-
-Tantangan yang Dihadapi:
-
-- Teknologi yang berkembang cepat
-- Kompleksitas keamanan tinggi
-- Perlu memahami ekonomi token
-- Testing yang lebih kompleks
-- Gas optimization
-
-
-Peluang Karir:
-
-- Web3 Developer
-- Smart Contract Engineer
-- Web3 Solutions Architect
+**Peluang Karir:**
+- Web3 Developer ($80K-$200K/year remote)
+- Smart Contract Engineer ($100K-$250K/year)
+- Smart Contract Auditor ($150K-$400K/year)
 - DeFi Protocol Developer
-- Blockchain Consultant
-- Blockchain Protocol Developer
+- Blockchain Protocol Engineer ($150K-$400K/year)
 
+> Supply developer Web3 masih jauh di bawah demand. Dari Indonesia, hampir belum ada protocol-level contributor. Ini peluang besar.
 
-## Phase 0 : Foundation
+---
+
+## Phase 0 : Foundation — "The First Brick"
 ![image](img/phase0.png)
 
-Kita langsung saja mulai di phase 0, phase dimana kalian belajar fundamental dari programming, web apps, dan nyicil belajar teori blockchain. Di journey gua ini, kita pake bahasa javascript untuk handle fullstack (front end & backend). alasannya karna javascript ini bahasa paling flexible. Dia bisa membuat (front end & backend) dengan 1 bahasa yang sama. Ini akan mempercepat learning curve kalian dari pada kalian harus belajar bahasa pemrograman yang lain.
+Phase 0 adalah pondasi dari segalanya. Tanpa pondasi yang kuat, bangunan apapun yang kalian bangun di atasnya pasti runtuh — dan itu termasuk karir Web3 kalian.
 
+Di phase ini kalian belajar **programming dari nol** menggunakan JavaScript. Kenapa JavaScript? Karena 1 bahasa ini bisa handle frontend (website), backend (server), dan bahkan interaksi dengan blockchain lewat library seperti ethers.js dan viem. Daripada kalian belajar 3 bahasa berbeda, JavaScript mempercepat learning curve kalian secara signifikan.
 
-*Untuk yang NON IT, dan pertama kali menyentuh programming atau orang" yang belum mengerti dasar komputer silahkan belajar *dasar dasar IT*
+**Koneksi ke Web3:** Semua yang kalian pelajari di sini langsung applicable di blockchain development nanti. Variable dan data types di JavaScript? Konsepnya sama persis di Solidity. Array dan Object? Mapping dan Struct di smart contract. Logic dan algorithm? Ini yang menentukan apakah smart contract kalian efisien atau boros gas fee. Git & GitHub? Semua project open-source Ethereum pakai Git — kalian ga bisa contribute tanpa ini.
 
-📚Resources (NON IT INTRO) : 
+Selain itu, di Phase 0 kalian juga mulai **menyicil teori blockchain** — belajar gimana network bekerja, apa itu consensus mechanism, dan kenapa kriptografi itu penting. Ini ga perlu dikuasain semua sekarang, tapi exposure awal ini bakal bikin Phase 3 nanti jauh lebih mudah dicerna.
+
+> **Durasi estimasi:** 4-8 minggu (tergantung background kalian)
+
+*Untuk yang NON IT dan baru pertama kali menyentuh programming:
+
+📚 **Resources (NON IT INTRO):**
+- [ETHJKT Phase 0 Preparation](https://github.com/Ethereum-Jakarta/phase-0-preparation) — Persiapan sebelum mulai Phase 0
+- [ETHJKT Code in Mobile](https://github.com/Ethereum-Jakarta/phase-0-code-in-mobile) — Belajar coding dari HP
 - [Introduction to Programming and Computer Science - FreeCodeCamp](https://www.youtube.com/watch?v=zOjov-2OZ0E)
-- [100+ Computer Science Concepts Explained - FireShip](https://www.youtube.com/watch?v=-uleG_Vecis&t=12s)
+- [100+ Computer Science Concepts Explained - Fireship](https://www.youtube.com/watch?v=-uleG_Vecis)
+- [CS50: Introduction to Computer Science - Harvard](https://cs50.harvard.edu/x/)
 
-Untuk orang" yang sudah mengerti konsep IT dan dasar komputer bisa lanjut untuk roadmap phase 0 foundation nya.
-
-Foundation ini terbagi menjadi 4 part, part terakhir untuk "Blockchain Foundation" dan bisa dicicil selagi kalian menjalani roadmapnya.
-
-### Learn Basic Tools :
-
+### Learn Basic Tools
 - Set Up Node.js
-- Integrated Development Environment (IDE) ( VS Code, VIM, IntelJ )
-- NPM 
-- Github
+- IDE (VS Code, dll)
+- NPM
+- GitHub
 - Command line basics
 
-📚Resources (Basic Tools) : 
-- [node js installation - geeksforgeeks](https://www.geeksforgeeks.org/install-node-js-on-windows/)
-- [TOP 10 IDE](https://medium.com/codex/the-top-10-ides-for-programmers-a-comprehensive-guide-to-choosing-the-best-ide-for-your-needs-c72e97c34591)
-- [Git Tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world)
-- [Git Tutorial - PetaniKode](https://www.petanikode.com/tutorial/git/)
-- [List command line](https://www.codecademy.com/article/command-line-commands)
+📚 **Resources:**
+- [Node.js Installation - GeeksForGeeks](https://www.geeksforgeeks.org/install-node-js-on-windows/)
+- [Git Tutorial - GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+- [Git Tutorial - PetaniKode (Bahasa Indonesia)](https://www.petanikode.com/tutorial/git/)
+- [Command Line Cheatsheet - Codecademy](https://www.codecademy.com/article/command-line-commands)
+- [Linux Command Cheatsheet - GeeksForGeeks](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
+- [VS Code Tips & Tricks - Official](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 
-
-### Javascript Foundation (run inside nodejs)
+### Javascript Foundation
 - Algorithm & Pseudocode
-- Variable
-- Conditional Statements
-- Looping 
+- Variable, Conditional Statements, Looping
 - Function
-- Basic Data Structures (Array, Object)
+- Data Structures (Array, Object)
 
-📚Resources (Javascript Foundation) : 
-- [Javascript list course sandhika galih](https://www.youtube.com/watch?v=RUTV_5m4VeI&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w)
-- [w3schools](https://www.w3schools.com/)
+📚 **Resources:**
+- [Javascript Course - Sandhika Galih / WPU (Bahasa Indonesia)](https://www.youtube.com/watch?v=RUTV_5m4VeI&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w)
 - [Javascript Full Course - freeCodeCamp](https://www.freecodecamp.org/news/full-javascript-course-for-beginners/)
-- [Javascript Tutorial - PetaniKode](https://www.petanikode.com/tutorial/javascript/)
-- [Gitbook javascript](https://github.com/GitbookIO/javascript)
-- [RPN Phase 0 JS Syntax](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code)
-- [18 repos for learning JS](https://dev.to/kafeel_ahmad/18-github-repos-to-learn-javascript-48d3)
+- [w3schools JavaScript](https://www.w3schools.com/js/)
+- [Javascript Tutorial - PetaniKode (Bahasa Indonesia)](https://www.petanikode.com/tutorial/javascript/)
+- [JavaScript.info - The Modern JavaScript Tutorial](https://javascript.info/)
+- [Eloquent JavaScript (Free Book)](https://eloquentjavascript.net/)
+- [ETHJKT Phase 0 Week 1 - Welcome to Code](https://github.com/Ethereum-Jakarta/phase-0-week1-welcome-to-code)
+- [ETHJKT Phase 0 Week 2 - Array and Logic](https://github.com/Ethereum-Jakarta/phase-0-week2-array-and-logic)
+- [ETHJKT Phase 0 Week 3 - Object is a Key](https://github.com/Ethereum-Jakarta/phase-0-week3-object-is-a-key)
+- [ETHJKT Phase 0 Week 4 - Before the Journey](https://github.com/Ethereum-Jakarta/phase-0-week4-before-the-journey)
 
-Selama belajar javascript syntax ini, kalian wajib ngelatih skill logic di competitive programming. Gua waktu awal" belajar suka pake codewars buat ngelatih logic nya.
-
-code wars: https://www.codewars.com/
-
-Asah level logic kalian sampe bisa menyelesaikan kyu 6/5 di codewars, ini akan membantu banget untuk pemahaman data flow, syntax dan algoritma yang kalian pakai untuk solving problem.
+Latih logic kalian di competitive programming:
+- [Codewars](https://www.codewars.com/) — target kyu 5/6
+- [LeetCode](https://leetcode.com/) — mulai dari Easy
+- [HackerRank](https://www.hackerrank.com/) — bagus buat interview prep
 
 ### Web2 Basics Development
-- HTML
-- CSS
-- Javascript (DOM, AJAX)
+- HTML & CSS
+- JavaScript DOM & AJAX
 - API Theory
-- Build first static website
+- Build website pertama
 
-📚Resources (Web2 Basics Development) : 
-- [list course WPU](https://www.youtube.com/@sandhikagalihWPU/courses)
-- [HTML w3school](https://www.w3schools.com/html/default.asp)
-- [CSS w3school](https://www.w3schools.com/css/default.asp)
-- [Javascript DOM w3school](https://www.w3schools.com/js/js_htmldom.asp)
-- [API Theory AWS](https://aws.amazon.com/id/what-is/api/)
+📚 **Resources:**
+- [HTML/CSS Course - WPU Sandhika Galih (Bahasa Indonesia)](https://www.youtube.com/@sandhikagalihWPU/courses)
+- [HTML - w3schools](https://www.w3schools.com/html/)
+- [CSS - w3schools](https://www.w3schools.com/css/)
+- [CSS Flexbox Guide - CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [JavaScript DOM - w3schools](https://www.w3schools.com/js/js_htmldom.asp)
+- [API Theory - AWS](https://aws.amazon.com/id/what-is/api/)
+- [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 
-Distage ini kalian mulai belajar membuat UI di website, HTML & CSS adalah makananan kalian sehari hari. Utamakan pelajarin konsepnya daripada mempercantik website saja. karna masalah bagus" an UI itu masuknya di phase 2 nanti front end advance. di stage ini fokus kalian untuk pengenalan cara website bekerja di web2. 
-
-### Blockchain Theory 
+### Blockchain Theory
 - Blockchain architecture
-- Consensus mechanisms
+- Consensus mechanisms (PoW, PoS)
 - Public vs private blockchains
-- Cryptographic primitives
-- Digital signatures & hashing
+- Cryptographic primitives & digital signatures
 
-📚Resources (Blockchain Theory) : 
+📚 **Resources:**
+- [Ethereum Documentation (Official)](https://ethereum.org/en/developers/docs/)
 - [Bitcoin Documentation](https://developer.bitcoin.org/)
-- [Ethereum Documentation](https://ethereum.org/en/developers/docs/)
-- [Hyperledger Documentation](https://www.hyperledger.org/learn)
-- [Proof Of Work](https://www.investopedia.com/terms/p/proof-work.asp)
-
-- [Whiteboard Crypto](https://www.youtube.com/@WhiteboardCrypto)
-White board crypto ini berguna banget buat pemula, video yang dia buat sangat interaktif dan mudah dimengerti. kalian bisa langsung tulis aja keyword blockchain yang kalian mau pelajari seperti ini :
-
-"Whiteboard Crypto What is Blockchain" -> https://www.youtube.com/watch?v=kHybf1aC-jE&t=1s
-![image](img/whiteboard.png)
-
+- [Whiteboard Crypto (YouTube)](https://www.youtube.com/@WhiteboardCrypto) — sangat interaktif dan mudah dimengerti untuk pemula
+- [Blockchain Knowledge - BlockDevID (Bahasa Indonesia)](https://blockdev.id/knowledge)
 - [Crypto Hash - GeeksForGeeks](https://www.geeksforgeeks.org/cryptography-hash-functions/)
+- [3Blue1Brown - But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+- [Anders Brownworth - Blockchain Visual Demo](https://andersbrownworth.com/blockchain/)
+- [Mastering Ethereum (Free Book)](https://github.com/ethereumbook/ethereumbook)
 
-- [Blockchain Knowledge - BlockDevID](https://blockdev.id/knowledge) -> Newbie friendly dan berbahasa indonesia, salah satu komunitas web3 dev terbesar di indo.
+> Blockchain theory ini panjang. Boleh dicicil selama Phase 0-2. Habbit yang bagus: sering baca transaction hash di Etherscan. Kalian bakal sering manage Tx hash sebagai Web3 dev.
 
+### Phase 0 Goals
+- [ ] JS Codewars kyu 5/6 — buktiin logic kalian udah solid
+- [ ] GitHub: commits, collaboration, resolve conflicts — ini skill wajib di dunia open-source Ethereum
+- [ ] Web2 apps menggunakan DOM — kalian harus bisa manipulasi UI sebelum belajar connect ke wallet
+- [ ] Pemahaman dasar blockchain — tau apa itu block, transaction, hash, wallet, dan consensus
+- [ ] Punya MetaMask dan pernah kirim testnet transaction — mulai biasain interact dengan blockchain
 
-Blockchain theory ini panjang sekali belajarnya. jadi boleh kalian cicil selama phase 0 sampe phase 2. Ini kalian bisa pelajari pelan pelan dan coba praktek kecil kecilan. praktek paling simple adalah mencoba untuk mebuat wallet di web3, swap token di berbagai DApp, interact ke beberapa smartcontract. Jika kalian trader yang sudah paham flow exchange dan DEX harusnya teori kalian dalam blockchain sudah lumayan kuat. Tinggal pelajari gimana mekanisme network blockchain bekerja saja dan Cryptographic hash nya. 
+> **Setelah Phase 0:** Kalian punya pondasi programming yang kuat dan sudah mulai familiar dengan konsep blockchain. Kalian belum bisa ngoding smart contract, tapi kalian tau gimana blockchain bekerja dan kenapa itu penting. Ini cukup untuk move ke Phase 1.
 
-Sering sering membaca transaction hash juga habbit yang bagus, karna ketika menjadi web3 dev kalian akan sering untuk manage Tx hash. kalian bisa build habbit nya dari sekarang pas awal" membuat pondasi pemrograman.
+---
 
-### Phase 0 Foundation Goals
-
-Ini adalah target" yang harus kalian capai di phase foundation, parameter inilah yang membuktikan kalo kalian pantas untuk melanjutkan phase selanjutnya. 
-
-- JS Codewars, Kyu 5/6
-- Github Commits, Collaboration, and resolving conflicts
-- Web2 apps using DOM 
-- Pehamahan Blockchain 
-
-
-## Phase 1 : Backend Development (Web2)
-
+## Phase 1 : Backend Development (Web2) — "The Engine Room"
 ![image](img/phase1.png)
 
-Backend Aplikasi Terdesentralisasi sangat berbeda dari backend aplikasi “standar”, dimulai dari fakta bahwa teknologi Blockchain digunakan sebagai sumber utama penyimpanan data terdesentralisasi, sedangkan backend standar biasanya menggunakan Basis Data atau Penyimpanan Objek.
+Banyak orang yang pengen jadi Web3 developer langsung loncat ke Solidity tanpa paham backend. Ini kesalahan fatal. Kenapa? Karena **smart contract itu pada dasarnya adalah backend** — logic, data storage, authentication, state management — semuanya ada di smart contract. Kalau kalian ga paham prinsip backend, kalian ga bakal bisa nulis smart contract yang proper.
 
-Namun, sebagian besar prinsip teknis tetap sama, dan tidak disarankan untuk langsung terjun ke pengembangan blockchain dan web3.0 tanpa landasan yang kuat dari prinsip utama pengembangan web2 standar.
+Di Phase 1, kalian belajar backend development menggunakan Node.js dan Express. Kalian bakal bikin REST API, manage database, implement authentication, dan deploy services ke cloud. Ini skill yang langsung transferable ke Web3.
+
+**Koneksi ke Web3:** Setiap konsep backend yang kalian pelajari di sini punya padanan langsung di blockchain development:
+- **Database (PostgreSQL/MongoDB)** → Di Web3, blockchain itu sendiri adalah "database" kalian. Tapi banyak dApp juga butuh off-chain database untuk data yang ga perlu on-chain (metadata, user preferences, caching). Tools seperti TheGraph dan indexers juga pakai konsep database.
+- **REST API** → Di Web3, kalian interact dengan blockchain lewat **RPC endpoints** — konsepnya mirip API call. Kalian juga butuh backend API untuk serve data ke frontend dApp kalian.
+- **Authentication (JWT)** → Di Web3, authentication diganti dengan **wallet signature verification** (Sign-In with Ethereum / SIWE). Konsep cryptographic verification ini jauh lebih powerful dari JWT.
+- **Cloud Deployment** → Smart contract di-deploy ke blockchain, tapi frontend dan indexer kalian tetap perlu cloud hosting. Railway, Vercel, dan IPFS jadi tools deployment kalian nanti.
+- **Algorithm & Logic** → Gas optimization di Solidity itu 100% soal algorithm. Semakin efisien logic kalian, semakin murah transaksi smart contract.
+
+> **Durasi estimasi:** 5-8 minggu
 
 ### Enhance Logic
-- Clean Code Introduction
+- Clean Code
 - Time Complexity
-- Next level algorithm (Searching Algo, Sorting Algo, Djakstra, Hashing)
+- Algoritma lanjutan (Searching, Sorting, Dijkstra, Hashing)
 - OOP Konsep
-- Linux Command Line
 
-📚Resources (Enhance Logic) : 
-- [RPN Phase 1](https://github.com/RPN-Phase-1)
-- [Linux Command Cheatsheet](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
-- [Top Algorithms ](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
-- [Clean Code Javascript](https://lokesh-prajapati.medium.com/26-clean-code-javascript-tips-for-efficient-programming-02ccdfebebc2)
+📚 **Resources:**
+- [ETHJKT Phase 1 Week 1 - Enhance Logic](https://github.com/Ethereum-Jakarta/phase-1-week1-enhance-logic)
+- [Top Algorithms for Interviews - GeeksForGeeks](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
+- [Clean Code JavaScript Tips](https://github.com/ryanmcdermott/clean-code-javascript)
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+- [NeetCode - Algorithm Roadmap](https://neetcode.io/roadmap)
 
-Pada pengembangan backend , logika pemrograman adalah segalanya. karena modul modul API ini berkatian dengan business flow dari project yang kita buat. Materi" Enhance logic ini jarang dibahas di bootcamp manapun, sering sekali course course online diluar melewati step ini. padahal fundamental seperti ini sangat berpengaruh dalam pembuatan server backend.
-
-
-### Backend API 
+### Backend API
 - RESTful APIs
-- Express.js/Node.js
-- Database management (MongoDB/PostgreSQL)
-- API authentication & security
+- Express.js / Node.js
+- Database (PostgreSQL / MongoDB)
+- Authentication & Security
 - Backend testing
 
-📚Resources (Backend API) : 
-- [RPN Phase 1](https://github.com/RPN-Phase-1)
-- [Rest API in nodejs](https://www.geeksforgeeks.org/what-is-rest-api-in-node-js/)
-- [Node js beginner - fireship ](https://www.youtube.com/watch?v=ENrzD9HAZK4&t=568s)
-- [Node js & Express Crash Course - FreeCodeCamp](https://www.youtube.com/watch?v=Oe421EPjeBE&t=1s)
-
-Di Stage ini kalian akan belajar Memasak berbagai hidangan yang akan kalian sajikan kepada para tamu nantinya. layaknya seperti seorang koki yang menyiapkan masakan dan meja makan untuk menghidangkan makanan, kalian para back end akan menyiapkan bermacam function dan data untuk diberikan kepada front end dan front end akan mem-visualisasikan data tersebut kedalam web. di sinilah kalian akan mempelajari bumbu-bumbu masakan tersebut untuk menciptakan hindangan yang lezat sebagai seorang backend seperti API, database, advance algorithm, Authentication & Authorization, dan lainnya.
+📚 **Resources:**
+- [ETHJKT Phase 1 Week 2 - Backend Fundamental](https://github.com/Ethereum-Jakarta/phase-1-week2-backend-fundamental)
+- [ETHJKT Phase 1 Week 3 - Backend Database](https://github.com/Ethereum-Jakarta/phase-1-week3-backend-database)
+- [ETHJKT Phase 1 Week 4 - Backend API](https://github.com/Ethereum-Jakarta/phase-1-week4-backend-api)
+- [ETHJKT Phase 1 Week 5 - Backend Advance](https://github.com/Ethereum-Jakarta/phase-1-week5-backend-advance)
+- [REST API in Node.js - GeeksForGeeks](https://www.geeksforgeeks.org/what-is-rest-api-in-node-js/)
+- [Node.js & Express Crash Course - freeCodeCamp](https://www.youtube.com/watch?v=Oe421EPjeBE)
+- [Node.js for Beginners - Fireship](https://www.youtube.com/watch?v=ENrzD9HAZK4)
+- [Prisma ORM Quickstart](https://www.prisma.io/docs/getting-started/quickstart)
+- [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
 
 ### Cloud Deployment
-- Understanding Cloud Services
-- Types of cloud services (IaaS, PaaS, SaaS)
+- Cloud Services (IaaS, PaaS, SaaS)
 - Deploy Backend Services
-- CI/CD
+- CI/CD basics
 
-📚Resources (Cloud Deployment) : 
-- [What is Cloud Computing -Aws](https://aws.amazon.com/what-is-cloud-computing/?nc2=h_ql_le_int_cc)
-- [Cloud Computing Full Course](https://www.youtube.com/watch?v=yRIU2nzIQl8)
-- [Deploy Backend Node To Vercel - geeksForGeeks](https://www.geeksforgeeks.org/how-to-deploy-node-backend-on-vercel/)
-- [Node js & Express Crash Course - FreeCodeCamp](https://www.youtube.com/watch?v=Oe421EPjeBE&t=1s)
+📚 **Resources:**
+- [What is Cloud Computing - AWS](https://aws.amazon.com/what-is-cloud-computing/)
+- [Deploy Node.js to Vercel - GeeksForGeeks](https://www.geeksforgeeks.org/how-to-deploy-node-backend-on-vercel/)
+- [Railway Docs](https://docs.railway.app/)
+- [Vercel Docs](https://vercel.com/docs)
+- [GitHub Actions Quickstart](https://docs.github.com/en/actions/quickstart)
 
-Cloud services stage terakhir diphase backend development, disini kalian akan belajar cara deploy API service kalian sampai bisa di konsum secara public/private dari forntend.
-Stage ini mungkin sangat membingunkan buat kalian, karena ada banyak banget service" cloud yang bisa dipakai di dunia IT. Benefitnya juga ada banyak berbagai macam jadi kalian harus cari mana yang cocok dan sesuai kebutuhan project kalian.
+### Phase 1 Goals
+- [ ] Mastering Algorithm — solve LeetCode Medium problems, ini nanti jadi basis gas optimization di Solidity
+- [ ] Database Design (ERD, business logic) — pola pikir ini sama persis saat kalian design smart contract storage
+- [ ] Backend Development (REST API) — kalian bakal bikin API lagi di Web3 untuk serve off-chain data ke dApp
+- [ ] Deploy Backend Services — pahami deployment flow, nanti kalian deploy smart contract dengan prinsip yang sama
+- [ ] Understand HTTP, request/response cycle, status codes — ini fondasi interaksi dengan blockchain RPC
 
-ini tips dari gua untuk learn cloud deployment dan menghindari yang namanya "tutorial hell"
+> **Setelah Phase 1:** Kalian udah bisa kerja sebagai backend developer di Web2. Skill kalian di algorithm, database, dan API design bakal jadi senjata rahasia waktu nulis smart contract yang efisien dan well-structured di Phase 3 nanti.
 
-### Key Tips for Success on learning cloud deployment:
-Mulailah dari yang Kecil:
-- Mulailah dengan deploy situs web statis
-- Tambahkan kompleksitas secara bertahap
-- Berlatihlah secara teratur dengan proyek-proyek kecil
+---
 
-Jalur Fokus:
-- Kuasai satu cloud service terlebih dahulu (disarankan AWS)
-- Pelajari fitur fitur cloud secara menyeluruh
-- Bangun practical project
-
-Jebakan Umum yang Harus Dihindari:
-- Jangan mencoba mempelajari semuanya sekaligus
-- Fokus pada pemahaman daripada menghafal
-- Selalu pertimbangkan dasar-dasar security
-
-### Phase 1 Backend Development Goals
-
-Ketika kalian sudah menyelesaikan phase 1, harusnya kalian sudah bisa bekerja sebagai backend developer di web2.
-inilah milestone yang akan tercapai jika kalian finish phase 1 secara menyeluruh :
-
-- Mastering Algorithm (Bisa Selesaikan LeetCode Medium problems)
-- Design Database (know business logic pattern, ERD, pre development)
-- Backend Development (REST API)
-- Deploy Backend Services
-
-
-## Phase 2 : Front End World (6 Weeks)
+## Phase 2 : Front End World (6 Weeks) — "The Bridge to Web3"
 ![image](img/phase2.png)
 
-> **📊 Total: 45+ study materials, 21+ arcane quests, 6+ quizzes across 6 weeks**
+> **Total: 45+ study materials, 21+ arcane quests, 6+ quizzes across 6 weeks**
 
-Di phase 2 ini kalian akan banyak belajar "sihir", sama seperti kalian menggunakan item-item dari pocket Doraemon. Semakin kalian banyak belajar item tersebut, semakin seru. Karena di front end ini dunia visual, belajar nya bakal lebih semangat karena hasil codingan kalian terlihat di layar. Item-item Doraemon ini sama saja seperti library-library front end yang kita pelajari, karena ada banyak sekali kombinasi framework + library di development front end.
+Phase 2 adalah fase paling transformatif dalam journey kalian. Di sini kalian bukan cuma belajar React dan frontend modern — kalian belajar **cara menghubungkan user dengan teknologi**. Dan di Web3, frontend adalah satu-satunya cara user berinteraksi dengan smart contract kalian.
 
----
+Bayangkan: smart contract kalian sudah perfect, udah di-audit, gas-efficient. Tapi tanpa frontend yang bagus, ga ada yang bisa pakainya. Setiap dApp yang sukses — Uniswap, OpenSea, Aave — sukses karena frontend mereka bikin interaksi blockchain jadi seamless. **Frontend adalah gerbang masuk ke blockchain.**
+
+Di phase ini kalian belajar React ecosystem secara mendalam: dari basic components sampai advanced state management, dari simple API calls sampai real-time WebSocket. Dan di akhir phase, kalian mulai **integrasi Web3 pertama kalian** — connect wallet, read smart contract, send transaction.
+
+**Koneksi ke Web3:** Phase 2 secara literal adalah bridge ke Web3 development:
+- **React Components & Hooks** → Library Web3 seperti **wagmi** dan **RainbowKit** semuanya React-based. Custom hooks yang kalian belajar di sini? Di Web3 kalian bikin custom hooks untuk interact dengan smart contract (`useContractRead`, `useContractWrite`).
+- **State Management (Zustand, React Query)** → Di dApp, kalian manage blockchain state (balance, transaction status, contract data) persis pakai pattern yang sama. React Query bahkan dipakai wagmi di belakang layar.
+- **API Integration (Axios, fetch)** → Di Web3, "API" kalian adalah blockchain RPC. Kalian fetch data dari smart contract, listen event, dan submit transaction — semua pakai pattern yang sama seperti REST API call.
+- **WebSocket** → Blockchain events pakai WebSocket subscription. Kalian bisa listen real-time ketika ada swap, transfer, atau mint di smart contract kalian.
+- **Authentication (JWT)** → Di Web3, authentication diganti **wallet connection**. User ga perlu username/password — mereka connect MetaMask dan sign message. Library seperti wagmi handle ini semua.
+- **Testing (Vitest, Playwright)** → Di Web3 kalian test smart contract dengan Foundry, dan test frontend integration dengan tools yang sama.
+- **CI/CD & Deployment** → dApp frontend di-deploy ke Vercel/IPFS, smart contract ke blockchain. Pipeline-nya mirip.
+
+> **Durasi:** 6 minggu intensif (dengan study material lengkap di setiap repo)
 
 ### Week 1 : Frontend Basic (HTML/CSS/jQuery)
-📦 [Repo: phase-2-week1-frontend-basic](https://github.com/Ethereum-Jakarta/phase-2-week1-frontend-basic)
-
-- HTML structure & semantic elements
-- CSS Flexbox & Grid
-- jQuery basics & DOM manipulation
-- Local Storage
-- Deploy ke Vercel
-
-Di week pertama ini kalian balik lagi ke basic, tapi kali ini kita dalemin. Bukan cuma bikin website statis, tapi beneran paham gimana HTML/CSS bekerja di bawah dan cara manipulasi DOM yang proper.
-
----
+[Repo: phase-2-week1-frontend-basic](https://github.com/Ethereum-Jakarta/phase-2-week1-frontend-basic)
+- HTML structure, CSS Flexbox & Grid, jQuery, Local Storage, deploy Vercel
 
 ### Week 2 : React.js
-📦 [Repo: phase-2-week2-reactjs](https://github.com/Ethereum-Jakarta/phase-2-week2-reactjs)
+[Repo: phase-2-week2-reactjs](https://github.com/Ethereum-Jakarta/phase-2-week2-reactjs)
+- Components, Props, State, Hooks, Tailwind CSS, React Router
 
-- React components & JSX
-- Props & State
-- React Hooks (useState, useEffect)
-- Tailwind CSS
-- React Router
-
-Di stage ini sudah saatnya kalian gabungkan Service Backend API dengan Front end untuk membuat 1 aplikasi fullstack utuh, kalian bisa merasakan flow engineering pada web2 dan cara kerja Web Apps sepenuhnya.
-
-📚Resources:
-- [ReactJs Crash Course - TraversyMedia](https://www.youtube.com/watch?v=LDB4uaJ87e0)
-- [Belajar TailwindCSS - WPU](https://www.youtube.com/watch?v=z3slaXqmkT0&list=PLFIM0718LjIUHFRMzPJ0wGjx9_NlC5d1h)
-- [Redux - FireShip](https://www.youtube.com/watch?v=_shA5Xwe8_4)
-
----
+📚 Resources: [React Crash Course - Traversy Media](https://www.youtube.com/watch?v=LDB4uaJ87e0) | [Tailwind CSS - WPU](https://www.youtube.com/watch?v=z3slaXqmkT0&list=PLFIM0718LjIUHFRMzPJ0wGjx9_NlC5d1h) | [React Official Tutorial](https://react.dev/learn)
 
 ### Week 3 : Advanced Frontend
-📦 [Repo: phase-2-week3-frontend-advance](https://github.com/Ethereum-Jakarta/phase-2-week3-frontend-advance)
+[Repo: phase-2-week3-frontend-advance](https://github.com/Ethereum-Jakarta/phase-2-week3-frontend-advance)
+> 16 study materials, 5 quests, 3 quizzes
+- Vite, Advanced Hooks, Custom Hooks, React Performance, TanStack (Query/Router/Table/Form), Redux Toolkit, Cypress, Stripe & Clerk
 
-> 16 study materials · 5 arcane quests · 3 quizzes
-
-- Vite Bundler & HMR
-- Advanced React Hooks (useMemo, useCallback, useRef, useContext)
-- useReducer & Advanced State Patterns
-- Custom Hooks
-- React Performance Optimization
-- TanStack Query, Router, Table, Form
-- Redux Toolkit
-- Cypress E2E Testing
-- Stripe & Clerk Integration
-- Code Review Best Practices
-
-Ketika kalian sudah ketemu dengan mid scale app, atau aplikasi yang lumayan besar. Maka akan sangat susah sekali untuk memanage komponen" react ini. Di stage inilah kalian akan belajar konsep advance frontend dimana kalian akan improve speed cara kerja komponen react dalam development website.
-
-Di Phase 2 ini akan sangat dinilai banget performance website react kalian, kalian dituntut untuk develop website react secara professional dimana data handling nya rapih dan komponen react reusable dan efektif di setiap case unique. tidak ada lagi membuat state banyak dan onChange banyak untuk handling form, tidak ada lagi useEffect sana sini untuk mengatur pengolahan data dari API.
-
-📚Resources:
-- [Next JS Learn](https://nextjs.org/learn)
-- [WebSockets Learn](https://blog.logrocket.com/websocket-tutorial-real-time-node-react/)
-- [10 React Hook Explained - FireShip](https://www.youtube.com/watch?v=TNhaISOUy6Q)
-
----
+📚 Resources: [Next.js Learn](https://nextjs.org/learn) | [10 React Hooks Explained - Fireship](https://www.youtube.com/watch?v=TNhaISOUy6Q) | [TanStack Query Docs](https://tanstack.com/query/latest)
 
 ### Week 4 : State Management & API Integration
-📦 [Repo: phase-2-week4-state-and-api](https://github.com/Ethereum-Jakarta/phase-2-week4-state-and-api)
-
-> 15 study materials · 5 arcane quests · 3 quizzes
-
-- Zustand State Management
-- Data Fetching Patterns
-- Axios Service Layer
-- React Query Advanced CRUD
-- JWT Authentication
-- Protected Routes & RBAC
-- WebSocket Real-time Data
-- Error Handling & Loading States
-- API Caching Strategies
-
-Di week ini kalian belajar gimana caranya manage data yang complex di frontend. State management bukan cuma soal useState — kalian butuh tools yang proper kayak Zustand buat handle global state, React Query buat server state, dan WebSocket buat real-time data.
-
----
+[Repo: phase-2-week4-state-and-api](https://github.com/Ethereum-Jakarta/phase-2-week4-state-and-api)
+> 15 study materials, 5 quests, 3 quizzes
+- Zustand, Data Fetching, Axios, React Query CRUD, JWT Auth, Protected Routes, WebSocket, Error Handling
 
 ### Week 5 : Fullstack Capstone (Individual)
-📦 [Repo: phase-2-week5-fullstack-capstone](https://github.com/Ethereum-Jakarta/phase-2-week5-fullstack-capstone)
+[Repo: phase-2-week5-fullstack-capstone](https://github.com/Ethereum-Jakarta/phase-2-week5-fullstack-capstone)
+> 12 study materials, 4 quests
+- Project Planning, Fullstack Architecture, Testing (Vitest + Playwright), CI/CD, Deploy (Vercel + Railway), Monitoring (Sentry)
 
-> 12 study materials · 4 arcane quests
+### Week 6 : Group Capstone + Demo Day
+[Repo: phase-2-week6-group-capstone](https://github.com/Ethereum-Jakarta/phase-2-week6-group-capstone)
+- Team Git, Code Standards, Group Project (WebSocket, RBAC, Admin Panel, File Uploads)
+- **Demo Day** di Discord "Magic Temple" voice channel
 
-- Project Planning & Architecture
-- Fullstack App Design (Monorepo vs Polyrepo)
-- Testing (Vitest + Playwright)
-- CI/CD Pipeline (GitHub Actions)
-- Deploy (Vercel + Railway)
-- Monitoring (Sentry)
-- Portfolio Preparation
+### Web3 Basic Integration
+Ini momen yang kalian tunggu — **pertama kalinya kodingan kalian berinteraksi dengan blockchain**. Di stage ini kalian belajar connect wallet ke website, read data dari smart contract, dan kirim transaksi. Semua skill React yang kalian bangun selama 5 minggu sebelumnya langsung applicable di sini. Kalian bakal bikin simple dApp — website yang bisa connect MetaMask, tampilkan balance, dan interact dengan smart contract di testnet.
 
-Week 5 adalah capstone individual — kalian bikin 1 fullstack app dari nol sampe deploy. Ini bukan tutorial, ini project beneran. Planning, architecture, testing, CI/CD, monitoring — semua kalian handle sendiri.
+📚 **Resources:**
+- [wagmi Docs (React Hooks for Ethereum)](https://wagmi.sh/)
+- [viem Docs (TypeScript Ethereum Interface)](https://viem.sh/)
+- [RainbowKit (Wallet Connect UI)](https://www.rainbowkit.com/)
+- [web3.js Docs](https://docs.web3js.org/)
+- [ethers.js Docs](https://docs.ethers.org/)
+- [Dapp Crash Course Playlist](https://www.youtube.com/watch?v=t3wM5903ty0&list=PLS5SEs8ZftgXlCGXNfzKdq7nGBcIaVOdN)
 
----
+### Phase 2 Goals
+- [ ] Fullstack Development — bikin aplikasi lengkap (frontend + backend) dari nol sampai deploy
+- [ ] Advanced Hooks, TanStack, State Management — ini pondasi untuk manage blockchain state di dApp nanti
+- [ ] Testing & CI/CD Pipeline — quality assurance, sama pentingnya di Web3 (smart contract bug = kehilangan uang)
+- [ ] Group collaboration & code review — open-source Ethereum butuh skill ini, semua contribution lewat PR review
+- [ ] Web3 Integration — connect wallet, read contract, send transaction. Ini "hello world" Web3 kalian
+- [ ] **Cari pengalaman kerja sebagai programmer** (WAJIB sebelum Phase 3)
 
-### Week 6 : Group Capstone + Demo Day 🏛️
-📦 [Repo: phase-2-week6-group-capstone](https://github.com/Ethereum-Jakarta/phase-2-week6-group-capstone)
-
-> 2 study materials · 2 arcane quests
-
-- Team Git Collaboration (branching, PRs, merge conflicts)
-- Code Standards (ESLint, Prettier, Husky, lint-staged)
-- Group Capstone Project (bigger scope: WebSocket, RBAC, Admin Panel, File Uploads)
-- 5 project options: Marketplace, Chronicle, Board, Codex, or Custom
-- **Demo Day** presentation on Discord "Magic Temple" voice channel
-
-Week terakhir! Kalian kerja dalam tim untuk bikin project yang lebih gede dari capstone individual. Ada mandatory extras (WebSocket, RBAC, Admin Panel, File Uploads) dan di akhir kalian presentasi di Magic Temple 🏛️
-
----
-
-### Web3 Basic Integration 
-- Web3.js/Ethers.js
-- Wallet Introduction
-- MetaMask integration
-- Simple Dapp
-- Reading SmartContract
-
-📚Resources (Web3 Integration) : 
-- [web3js docs](https://docs.web3js.org/)
-- [Web3 React Intro](https://devm.io/react/react-frontend-web3-app)
-- [Simple Dapp](https://medium.com/@erinlim555/building-a-web3-app-with-react-f85843db2f47)
-- [Dapp Crash Course](https://www.youtube.com/watch?v=t3wM5903ty0&list=PLS5SEs8ZftgXlCGXNfzKdq7nGBcIaVOdN)
-
-Stage terakhir dari phase 2 adalah Web3 Integration, dimana perjalanan web3 kalian mulai dari sini. skill fullstack web2 kalian akan dikombinasikan dengan integrasi tools web3. Basic ini yang akan jadi penghubung kalian di next phase untuk belajar blockchain development sepenuhnya. Jadi fokus untuk develop fundamental Web3 dan cobain fitur fitur dari web3 js dan ethers.
+> **Setelah Phase 2:** Kalian udah bisa kerja sebagai fullstack developer Web2 dan udah punya first touch dengan blockchain. Ini titik krusial — **kalian harus cari pengalaman kerja real** sebagai programmer. Ambil 1-2 tahun pengalaman di industri sambil terus belajar Web3 di samping. Kenapa? Karena pengalaman kerja real ngajarin kalian hal yang ga bisa dipelajari dari tutorial: deadline pressure, code review dari senior, debugging production issues, dan kerja dalam tim. Semua ini bikin kalian jadi Web3 developer yang jauh lebih mature di Phase 3.
+>
+> Jadi sambil kerja, kalian sambil belajar blockchain theory, eksperimen dengan smart contract di Remix, dan ikut hackathon. Ketika Phase 3 selesai dan kalian merasa siap, baru pindah ke Web3 career.
 
 ---
 
-### Phase 2 Front End World Goals
-
-Di phase 2 harusnya kalian sudah bisa bekerja sebagai Fullstack developer di web2. dan bisa sedikit" untuk integrasi aplikasi simple Dapp.
-inilah milestone yang akan tercapai jika kalian finish phase 2 secara menyeluruh :
-
-- Fulstack Development (Handle both front end and backend)
-- Advance Hooks, TanStack, and State Management
-- Testing & CI/CD Pipeline
-- Group collaboration & code review
-- Web3 Integration (Simple Dapp and web3 libraries)
-- Fullstack work experience (WAJIB)
-
-
-Jadi sebelum kalian memasuki phase 3, syarat utamanya adalah kalian harus mencari pengalaman kerja real sebagai Programmer. Dengan selesai nya phase 2, kalian harus rapihkan semua portofolio dan membuat profile (CV) untuk melamar pekerjaan di web2 company. Kalian bebas mau melamar apa saja, bisa backend developer, front end developer atau Fullstack developer.
-
-Setelah kalian mendapatkan kerja sebagai developer di web2 company, Kalian akan tetap terus belajar web3 development dan melanjutkan perjalanan kalian ke phase 3. Ambil pengalaman sekitar 2-3 tahun Tegantung berapa lama kalian belajar web3.
-
-jadi sambil kerja kalian sambil belajar tentang web3. Ketika phase 3 sudah selesai atau kalian merasa sudah siap menjadi web3 developer, kalian bisa melepas web2 job kalian dan mencoba melamar Web3 developer ketika serasa sudah siap dengan skillnya.
-
-
-## Phase 3 Fullstack Web3 Developer 
+## Phase 3 : Fullstack Web3 Developer — "Tower of Chains"
 ![image](img/phase3.png)
 
-Inilah Phase yang kalian tunggu", Phase terakhir dari kuliah web3 kalian. Di phase ini kita akan belajar lebih dalam tools" web3 dan Smart Contractnya. disini juga kalian akan membuat aplikasi web3 yang complex menggunakan ERC standard dan libraries up to date. 
+Inilah phase yang kalian tunggu-tunggu sejak awal. **Tower of Chains** — tempat dimana semua skill yang kalian bangun dari Phase 0 sampai Phase 2 akhirnya bergabung menjadi satu kekuatan: **kemampuan membangun aplikasi terdesentralisasi dari nol.**
 
-### SmartContract Development (Solidity)
+Di Phase 3, kalian belajar **Solidity** — bahasa pemrograman untuk menulis smart contract di Ethereum. Tapi ini bukan belajar bahasa baru dari nol. Kalian udah punya fondasi JavaScript (Phase 0), pemahaman backend logic dan database (Phase 1), dan kemampuan integrasi frontend-to-blockchain (Phase 2). Solidity akan terasa familiar — syntax-nya mirip JavaScript, konsep storage-nya mirip database, dan pattern-nya mirip backend API yang kalian udah kuasai.
 
-- Data types & variables
-- Functions & modifiers
-- Contract inheritance
-- Events & logs
-- Gas optimization
+Yang membedakan Phase 3 dari phase sebelumnya: **di sini, bug bisa berarti kehilangan uang beneran.** Smart contract yang sudah di-deploy ke mainnet ga bisa di-edit. Ga ada `git revert`. Ga ada rollback. Kalau ada vulnerability, hacker bisa drain semua dana dalam hitungan detik. Ini kenapa security bukan optional — ini wajib. Dan ini kenapa kalian butuh fondasi yang kuat dari Phase 0-2 sebelum sampai di sini.
 
-Tools:
-- Hardhat/Truffle
-- Ganache (optional)
-- OpenZeppelin
-- Remix IDE (Tools Newbie Friendly) : https://remix.ethereum.org/
-- Web3 libraries (Wagmi, Viem, Moralis API)
+**Apa yang membuat Phase 3 special:**
+- Kalian belajar pakai **Foundry** — development toolkit standar industri yang dipakai oleh tim-tim top seperti Uniswap, OpenSea, dan Aave. Foundry ini Rust-based, super cepat, dan powerful untuk testing.
+- Kalian implement **token standards** (ERC-20, ERC-721, ERC-1155) yang jadi building blocks seluruh ekosistem DeFi dan NFT.
+- Kalian bikin **DeFi primitives** — staking contract, simple AMM — dan connect semuanya ke frontend React dari Phase 2.
+- Kalian belajar **security auditing** — gimana caranya nyerang smart contract dan gimana caranya defend. Skill ini alone bisa dapet kerjaan $150K+/year.
+- Phase 3 ditutup dengan **hackathon simulation** — 48 jam bikin dApp dari nol dalam tim, persis kayak hackathon beneran di ETHGlobal.
 
+**Koneksi ke semua yang udah kalian pelajari:**
+- JavaScript logic (Phase 0) → Solidity logic, gas-efficient algorithm
+- Backend patterns (Phase 1) → Smart contract architecture, storage design, state management
+- React frontend (Phase 2) → dApp frontend pakai wagmi + viem + RainbowKit
+- Database design (Phase 1) → On-chain storage layout, mapping/struct design
+- API integration (Phase 2) → Contract interaction, event listening, transaction handling
+- Testing (Phase 2) → Foundry testing, fuzz testing, exploit testing
+- Deployment (Phase 1-2) → Smart contract deployment ke testnet dan mainnet
 
-📚Resources (SmartContract Development) : 
-- [SmartContract KIT](https://github.com/smartcontractkit/full-blockchain-solidity-course-py)
+> **Durasi:** 5 minggu intensif. Setiap minggu ada study material, arcane quests, dan quizzes di repo tersendiri.
+
+### Smart Contract Development (Solidity)
+Solidity adalah bahasa pemrograman untuk menulis smart contract di Ethereum dan semua EVM-compatible chain (Polygon, Arbitrum, Base, Optimism, dll). Kalau kalian kuasai Solidity, kalian bisa build di **semua** chain ini — bukan cuma Ethereum.
+
+- Data types, functions, modifiers
+- Contract inheritance, events, custom errors
+- Storage vs memory vs calldata — ini konsep unik blockchain yang menentukan gas cost
+- Gas optimization — setiap operasi di blockchain ada biayanya, kalian harus belajar bikin code yang efisien
+
+📚 **Resources:**
+- [Cyfrin Updraft - Solidity Fundamentals](https://updraft.cyfrin.io/courses/solidity)
+- [Cyfrin Updraft - Foundry Fundamentals](https://updraft.cyfrin.io/courses/foundry)
 - [CryptoZombies](https://cryptozombies.io/)
-- [Levelup - Scroll](https://www.levelup.xyz/solidity)
+- [Solidity by Example](https://solidity-by-example.org/)
+- [Solidity Official Docs](https://docs.soliditylang.org/)
+- [Foundry Book](https://book.getfoundry.sh/)
+- [OpenZeppelin Contracts Docs](https://docs.openzeppelin.com/contracts/5.x/)
+- [Remix IDE](https://remix.ethereum.org/)
+- [LevelUp - Scroll (Bahasa Indonesia)](https://www.levelup.xyz/solidity)
+- [SmartContract Full Course (GitHub)](https://github.com/smartcontractkit/full-blockchain-solidity-course-py)
 
-Tentu saja, mengetahui apa itu Smart Contract saja tidak cukup. Sebagai Developer Web3.0 atau Blockchain, Kalian harus tahu cara menulis Smart Contract Kalian sendiri dan menggunakannya untuk mendukung Aplikasi Terdesentralisasi Kalian sendiri. Di sinilah Solidity hadir untuk membantu.
+### Mastering dApp Development
+Di stage ini kalian menggabungkan semuanya — smart contract yang udah kalian tulis di-connect ke frontend React yang udah kalian kuasai di Phase 2. Ini dimana kalian benar-benar merasakan flow development Web3 secara end-to-end: user connect wallet → interact dengan UI → frontend call smart contract → transaction confirmed on-chain → UI update real-time.
 
-Solidity adalah bahasa pemrograman berorientasi kontrak tingkat tinggi untuk menulis Smart Contract yang memungkinkan programmer menulis kode yang dapat dieksekusi sendiri yang mendukung DApps blockchain.
+**Frontend Integration:**
+- wagmi + viem + RainbowKit — trifecta library Web3 frontend modern
+- Transaction management & event listening — UX harus smooth walaupun transaction butuh 12 detik untuk confirmed
+- Error handling & UX best practices — handle rejected transaction, insufficient gas, network switch
 
+**Backend Services:**
+- IPFS integration — storage terdesentralisasi untuk file/metadata NFT
+- TheGraph & Subgraphs — indexing blockchain data agar queryable (ga mungkin kalian query seluruh blockchain tiap kali user buka halaman)
+- Chainlink Oracles — data dari luar blockchain (harga token, data real-world) yang bisa diakses smart contract
+- Off-chain data management — ga semua data harus on-chain, kalian perlu tau kapan pakai database biasa vs blockchain
 
+**Smart Contract Patterns:**
+- ERC standards (ERC-20, ERC-721, ERC-1155) — token standards yang jadi fondasi seluruh ekosistem DeFi dan NFT
+- Upgradeable contracts (Proxy patterns) — cara update smart contract yang udah di-deploy (karena smart contract immutable by default)
+- Access control patterns — siapa boleh manggil function apa, penting banget buat security
+- Gas optimization patterns — bikin contract lebih murah untuk dipakai user
 
-### Mastering Dapp Development
+📚 **Resources:**
+- [Scaffold-ETH 2](https://scaffoldeth.io/) — rapid prototyping toolkit
+- [SpeedRunEthereum](https://speedrunethereum.com/) — hands-on challenges
+- [OpenZeppelin Wizard](https://wizard.openzeppelin.com/) — generate token contracts
+- [Chainlink Docs - Data Feeds](https://docs.chain.link/data-feeds)
+- [TheGraph Docs](https://thegraph.com/docs/)
+- [IPFS Docs](https://docs.ipfs.tech/)
+- [DeFi Developer Road Map (GitHub)](https://github.com/OffcierCia/DeFi-Developer-Road-Map)
+- [Whiteboard Crypto (YouTube)](https://www.youtube.com/@WhiteboardCrypto)
+- [Patrick Collins - Cyfrin Updraft Advanced Foundry](https://updraft.cyfrin.io/courses/advanced-foundry)
 
-Frontend Integration:
+### Security & Auditing
+Skill paling dicari dan paling dibayar mahal di industri Web3. Smart contract auditor bisa dapet $150K-$400K/year — dan supply-nya masih sangat sedikit. Di stage ini kalian belajar gimana hacker menyerang smart contract (reentrancy, flash loan exploit, price manipulation) dan gimana cara defend. Kalian bakal exploit vulnerable contracts sendiri — karena cara terbaik belajar defend adalah dengan belajar attack dulu.
 
-- Web3 wallet integration
-- Transaction management
-- Event listening
-- Error handling
-- UX best practices
+📚 **Resources:**
+- [Cyfrin Updraft - Security & Auditing](https://updraft.cyfrin.io/courses/security)
+- [Ethernaut](https://ethernaut.openzeppelin.com/) — wargame security challenges
+- [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/) — advanced exploit challenges
+- [SWC Registry](https://swcregistry.io/) — database vulnerability patterns
+- [Slither (Static Analyzer)](https://github.com/crytic/slither)
+- [RareSkills - Gas Optimization](https://www.rareskills.io/post/gas-optimization)
+- [Solidity Patterns](https://fravoll.github.io/solidity-patterns/)
 
-Backend Services:
+### Portfolio Project Ideas
+Wajib bikin minimal 2-3 project ini untuk portfolio:
 
-- IPFS integration
-- TheGraph
-- Oracles (Chainlink)
-- Subgraphs
-- Off-chain data management
-- ThirdWeb
+- **Basic dApp** — Smart contract + wallet integration + basic transactions
+- **NFT Marketplace** — ERC-721/1155, marketplace, IPFS metadata
+- **DeFi Application** — Token swapping, liquidity, yield farming
+- **DAO Platform** — Governance token, voting mechanism, treasury
+- **Staking dApp** — Deposit, reward calculation, claim rewards, frontend
 
-Smart Contract Patterns:
+### Phase 3 Goals
+- [ ] Write, test, deploy smart contracts dengan Foundry — kalian harus bisa dari nulis sampai deploy sendiri
+- [ ] Implement ERC-20, ERC-721, ERC-1155 — building blocks seluruh ekosistem DeFi dan NFT
+- [ ] Build DeFi primitives (staking, AMM) — pahami mekanisme yang menggerakkan miliaran dolar di DeFi
+- [ ] Security auditing basics — selesaikan Ethernaut, jalanin Slither, tulis audit report
+- [ ] Gas optimization — bikin contract kalian murah dan efisien
+- [ ] Complete dApp (contracts + frontend + deployment) — portfolio piece utama kalian
+- [ ] Hackathon simulation — 48 jam bikin dApp dari nol, experience beneran kayak ETHGlobal
+- [ ] **Siap apply kerja Web3 dan menang hackathon**
 
-- ERC standards (20, 721, 1155)
-- Upgradeable contracts
-- Access control
-- Gas optimization patterns
-- Design patterns
+> **Setelah Phase 3:** Kalian adalah **Fullstack Web3 Developer**. Kalian bisa nulis smart contract, bikin frontend dApp, deploy ke mainnet, dan punya portfolio yang solid. Kalian siap apply ke posisi Web3 developer, ikut hackathon, dan mulai contribute ke open-source Ethereum. Buat yang mau lebih dalam lagi ke protocol-level engineering, ETHJKT punya track lanjutan: **The Black Tower** — inner circle untuk contribute langsung ke Ethereum protocol.
 
-📚Resources (Dapp Development) : 
-- [Defi Developer Repo](https://github.com/OffcierCia/DeFi-Developer-Road-Map)
-- [WhiteBoard Crypto](https://www.youtube.com/c/WhiteboardCrypto)
-- [Fullstack NFT](https://www.web3.university/tracks/build-your-first-nft/building-a-full-stack-nft-dapp)
-- [Dapp Development Playlist](https://www.youtube.com/@daulathussain/playlists)
+---
 
-Ini akan jadi learning curve yang panjang banget, sekali lagi gua tekenin explore dan dalemin 1 konsep terlebih dahulu baru belajar konsep yang lain. jangan belajar semua konsep berbarengan.
-Kalian wajib mulai menyicil untuk membuat portofolio web3, ini list ide porto yang kalian bisa buat 
+## Continuous Learning — "The Journey Never Ends"
 
+Web3 adalah industri yang bergerak paling cepat di dunia teknologi. Ethereum alone udah ngeluarin 2 major upgrade di 2025 (Pectra & Fusaka), dan 2026 ada 2 lagi yang direncanakan (Glamsterdam & Hegota). Setiap upgrade membuka peluang baru, tools baru, dan cara baru untuk build. Sebagai Web3 developer, kalian harus terus belajar — bukan karena ilmu lama kalian jadi useless, tapi karena ada opportunity baru yang terus muncul.
 
-Basic DApp
-- Simple smart contract
-- Web3 wallet integration
-- Basic transactions
+Ini topik-topik yang harus kalian ikuti setelah Phase 3:
 
-NFT Marketplace
-- ERC721/1155 implementation
-- Marketplace functionality
-- IPFS integration
+**Layer 2 & Scaling:**
+- Rollups (Optimistic vs ZK)
+- Data Availability (Blobs, PeerDAS)
+- L2 economics
 
-DeFi Application
-- Token swapping
-- Liquidity provision
-- Yield farming mechanics
-
-DAO Platform
-- Governance tokens
-- Voting mechanism
-- Treasury management
-
-*SOON kita akan buat workshop dan ngoding bareng untuk membuat semua list porto ini.
-
-
-### Continuous Learning
-
-Di stage ini kalian sudah bisa bekerja sebagai fullstack web3 Developer, jenjang selanjutnya adalah belajar terus menerus tanpa henti. karna kalian masih ketinggalan dengan topic" baru di web3.
-kalian harus mengejar technology yang hype sekarang dan advance topic baru di web3.
-
-Layer 2 Solutions
-- Rollups (Optimistic/ZK)
-- State channels
-- Sidechains
-- Plasma
-
-DeFi Concepts
-- AMMs
-- Lending protocols
-- Yield farming
+**DeFi Advanced:**
+- AMM mechanics (Uniswap V4 Hooks)
 - Flash loans
-- Governance mechanisms
+- MEV & Flashbots
+- Cross-chain intents (ERC-7683)
 
-Infrastructure
-- Node management
-- RPC providers
-- ENS integration
-- IPFS/Filecoin
-- Multi-chain development
-- L1sload Precompile
+**Ethereum Protocol (2025-2026 Updates):**
+- Pectra upgrade (EIP-7702 Account Abstraction, blob increase)
+- Fusaka upgrade (PeerDAS)
+- EIP-8141 Frame Transactions
+- Post-Quantum Security
+- Glamsterdam & Hegota upcoming upgrades
 
-dan jangan lupa start networking dan show skill kalian ke web3 community :
+**Stay Connected:**
 - Follow Web3 blogs & newsletters
-- Join Discord communities
-- Participate in hackathons
+- Join Discord communities (ETH JKT, Ethereum R&D)
+- Ikut hackathons (ETHGlobal, Devfolio)
 - Contribute to open source
-- Stay updated with EIPs
+- Ikuti EIP updates di [eips.ethereum.org](https://eips.ethereum.org/)
+- Baca research di [ethresear.ch](https://ethresear.ch/)
 
+---
 
+## Career & Community
+
+### Job Hunting
+- [web3.career](https://web3.career/)
+- [crypto.jobs](https://crypto.jobs/)
+- [ETHGlobal Showcase](https://ethglobal.com/)
+- [RareSkills - Solidity Interview Questions](https://www.rareskills.io/post/solidity-interview-questions)
+
+### Komunitas Indonesia
+- [Ethereum Jakarta](https://github.com/Ethereum-Jakarta) — ETH JKT GitHub
+- [BlockDev ID](https://blockdev.id/) — komunitas Web3 dev Indonesia terbesar
+
+---
+
+> *"Supply developer Web3 masih jauh di bawah demand. Kalian yang mulai sekarang adalah gelombang pertama dari Indonesia. Let's build."* — Faisal / Zexo, ETH JKT
