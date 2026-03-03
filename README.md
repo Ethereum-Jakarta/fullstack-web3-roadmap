@@ -57,7 +57,6 @@ Sebelum masuk ke roadmap, ini adalah kumpulan resource terbaik yang gratis dan b
 |---|----------|------|-----------|
 | 18 | **Solidity Official Docs** | [docs.soliditylang.org](https://docs.soliditylang.org/) | Referensi bahasa Solidity yang lengkap — syntax, types, inheritance, security considerations |
 | 19 | **useWeb3** | [useweb3.xyz](https://www.useweb3.xyz/) | Aggregator kurasi resource Web3 terbaik — tutorials, courses, tools, boilerplate |
-| 20 | **BlockDev ID** | [blockdev.id/knowledge](https://blockdev.id/knowledge) | Komunitas Web3 dev Indonesia — resource berbahasa Indonesia, newbie friendly |
 
 ### Recommended Learning Path
 ```
@@ -193,7 +192,6 @@ Latih logic kalian di competitive programming:
 - [Ethereum Documentation (Official)](https://ethereum.org/en/developers/docs/)
 - [Bitcoin Documentation](https://developer.bitcoin.org/)
 - [Whiteboard Crypto (YouTube)](https://www.youtube.com/@WhiteboardCrypto) — sangat interaktif dan mudah dimengerti untuk pemula
-- [Blockchain Knowledge - BlockDevID (Bahasa Indonesia)](https://blockdev.id/knowledge)
 - [Crypto Hash - GeeksForGeeks](https://www.geeksforgeeks.org/cryptography-hash-functions/)
 - [3Blue1Brown - But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 - [Anders Brownworth - Blockchain Visual Demo](https://andersbrownworth.com/blockchain/)
@@ -518,8 +516,6 @@ Ini topik-topik yang harus kalian ikuti setelah Phase 3:
 
 ### Komunitas Indonesia
 - [Ethereum Jakarta](https://github.com/Ethereum-Jakarta) — ETH JKT GitHub
-- [BlockDev ID](https://blockdev.id/) — komunitas Web3 dev Indonesia terbesar
-
 ---
 
 > *"Supply developer Web3 masih jauh di bawah demand. Kalian yang mulai sekarang adalah gelombang pertama dari Indonesia. Let's build."* — Faisal / Zexo, ETH JKT
